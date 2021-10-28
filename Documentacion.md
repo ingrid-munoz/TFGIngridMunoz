@@ -101,7 +101,7 @@ RNF6: Acceso óptimo | Prioridad
 **RNF6.1** El sistema debe acceder de forma rápida a toda la información que quiera consultar el usuario | Importante
 
 RNF7: Codificación UTF-8 | Prioridad
------------- | -------------
+------ | ------
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
