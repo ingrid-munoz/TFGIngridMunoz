@@ -50,10 +50,9 @@ en ingles
 | RF1.1 El administrador puede crear, modificar y borrar usuarios | Esencial |
 | RF1.2 El administrador puede borrar eventos del calendario | Esencial |
 
-
-RF2: Identificación del usuario alumno | Prioridad
------------- | -------------
-RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana | Esencial
+  RF2: Identificación del usuario alumno | Prioridad
+  ------------ | -------------
+  RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana | Esencial
 RF2.2 Si el usuario alumno introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
 RF2.3 Si el usuario alumno introduce un evento inapropiado se le dará un aviso para que lo modifique en un plazo de 8 horas. Si pasado ese plazo no se ha modificado se borrará automáticamente | Esencial
 RF2.4 El usuario alumno podrá unirse a uno o varios eventos | Esencial
@@ -75,6 +74,30 @@ RF5: Requisitos agenda | Prioridad
 RF4.1 El usuario podrá indicar la fecha en la que se realizará el evento | Esencial
 RF4.2 El usuario podrá unirse a uno o varios eventos | Esencial
 
+### 2.1.2 Requisitos funcionales (RF)
+
+RNF1: Accesibilidad
+	Prioridad: Esencial
+RNF1.1 El sistema debe resultar fácil de utilizar y de fácil navegación para cualquier tipo de usuario, independientemente de sus habilidades, características o conocimientos personales.
+RNF2: Idioma
+	Prioridad: Esencial
+RNF2.1 La aplicación utilizará el idioma español. 
+RNF3: Usabilidad en distintos navegadores
+	Prioridad: Importante
+RNF3.1 Deberá ser compatible con las últimas versiones de los distintos navegadores.
+RNF4: Interfaz adaptable
+	Prioridad: Esencial
+RNF4.1 El diseño de la interfaz de usuario debe adaptarse a cualquier medida de pantalla.
+RNF5: Almacenamiento
+	Prioridad: Importante
+RNF5.1 Todos los datos de la aplicación serán almacenados en una base de datos relacional.
+
+RNF6: Acceso óptimo
+Prioridad: Importante
+RNF6.1 El sistema debe acceder de forma rápida a toda la información que quiera consultar el usuario.
+RNF7: Codificación UTF-8
+	Prioridad: Esencial
+RNF7.1 la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE.
 
 
 
