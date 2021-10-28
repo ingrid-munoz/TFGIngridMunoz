@@ -51,57 +51,57 @@ en ingles
 | **RF1.2** El administrador puede borrar eventos del calendario | Esencial |
 
 RF2: Identificación del usuario alumno | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RF2.1** El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana | Esencial
 **RF2.2** Si el usuario alumno introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
 **RF2.3** Si el usuario alumno introduce un evento inapropiado se le dará un aviso para que lo modifique en un plazo de 8 horas. Si pasado ese plazo no se ha modificado se borrará automáticamente | Esencial
 **RF2.4** El usuario alumno podrá unirse a uno o varios eventos | Esencial
 
 RF3: Identificación del usuario profesor | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RF3.1** El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda | Esencial
 **RF3.2** Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
 **RF3.3** El usuario profesor podrá informar o borrar si un evento del usuario alumno es inapropiado | Esencial
 **RF.3.4** El usuario profesor podrá unirse a uno o varios eventos | Esencial
 
 RF4: Identificación del usuario padre AMPA | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RF4.1** El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda | Esencial
 **RF4.2** El usuario padre podrá unirse a uno o varios eventos | Esencial
 
 RF5: Requisitos agenda | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RF4.1** El usuario podrá indicar la fecha en la que se realizará el evento | Esencial
 **RF4.2** El usuario podrá unirse a uno o varios eventos | Esencial
 
 ### 2.1.2 Requisitos no funcionales (RF)
 
 RNF1: Accesibilidad | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF1.1** El sistema debe resultar fácil de utilizar y de fácil navegación para cualquier tipo de usuario, independientemente de sus habilidades, características o conocimientos personales | Esencial
 
 RNF2: Idioma | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF2.1** La aplicación utilizará el idioma español | Esencial
 
 RNF3: Usabilidad en distintos navegadores | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF3.1** Deberá ser compatible con las últimas versiones de los distintos navegadores | Esencial
 
 RNF4: Interfaz adaptable | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF4.1** El diseño de la interfaz de usuario debe adaptarse a cualquier medida de pantalla | Esencial
 
 RNF5: Almacenamiento | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF5.1** Todos los datos de la aplicación serán almacenados en una base de datos relacional | Esencial
 
 RNF6: Acceso óptimo | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF6.1** El sistema debe acceder de forma rápida a toda la información que quiera consultar el usuario | Importante
 
 RNF7: Codificación UTF-8 | Prioridad
-:------------: | :-------------
+:------------ | :-------------
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
