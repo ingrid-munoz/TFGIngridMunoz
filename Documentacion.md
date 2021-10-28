@@ -45,7 +45,7 @@ en ingles
 ## 2.1 Requisitos funcionales y no funcionales
 ### 2.1.1 Requisitos funcionales (RF)
 
-RF1: Identificación del usuario administrador | 
+RF1: Identificación del usuario administrador  
 ------------ | -------------
 RF1.1 El administrador puede crear, modificar y borrar usuarios | Prioridad: Esencial
 RF1.2 El administrador puede borrar eventos del calendario | w
