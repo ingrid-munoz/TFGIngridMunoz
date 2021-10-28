@@ -75,8 +75,5 @@ RF4.1 El usuario podrá indicar la fecha en la que se realizará el evento.
 RF4.2 El usuario podrá unirse a uno o varios eventos.
 
 
-First Header |
------------- | -------------
-Content from cell 1 fffff
-Content in the first column | Content in the second column
+
 
