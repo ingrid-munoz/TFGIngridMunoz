@@ -76,28 +76,34 @@ RF4.2 El usuario podrá unirse a uno o varios eventos | Esencial
 
 ### 2.1.2 Requisitos funcionales (RF)
 
-RNF1: Accesibilidad
-	Prioridad: Esencial
-RNF1.1 El sistema debe resultar fácil de utilizar y de fácil navegación para cualquier tipo de usuario, independientemente de sus habilidades, características o conocimientos personales.
-RNF2: Idioma
-	Prioridad: Esencial
-RNF2.1 La aplicación utilizará el idioma español. 
-RNF3: Usabilidad en distintos navegadores
-	Prioridad: Importante
-RNF3.1 Deberá ser compatible con las últimas versiones de los distintos navegadores.
-RNF4: Interfaz adaptable
-	Prioridad: Esencial
-RNF4.1 El diseño de la interfaz de usuario debe adaptarse a cualquier medida de pantalla.
-RNF5: Almacenamiento
-	Prioridad: Importante
-RNF5.1 Todos los datos de la aplicación serán almacenados en una base de datos relacional.
+RNF1: Accesibilidad | Prioridad
+------------ | -------------
+RNF1.1 El sistema debe resultar fácil de utilizar y de fácil navegación para cualquier tipo de usuario, independientemente de sus habilidades, características o conocimientos personales | Esencial
 
-RNF6: Acceso óptimo
-Prioridad: Importante
-RNF6.1 El sistema debe acceder de forma rápida a toda la información que quiera consultar el usuario.
-RNF7: Codificación UTF-8
-	Prioridad: Esencial
-RNF7.1 la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE.
+RNF2: Idioma | Prioridad
+------------ | -------------
+RNF2.1 La aplicación utilizará el idioma español | Esencial
+
+RNF3: Usabilidad en distintos navegadores | Prioridad
+------------ | -------------
+RNF3.1 Deberá ser compatible con las últimas versiones de los distintos navegadores | Esencial
+
+RNF4: Interfaz adaptable | Prioridad
+------------ | -------------
+RNF4.1 El diseño de la interfaz de usuario debe adaptarse a cualquier medida de pantalla | Esencial
+
+
+RNF5: Almacenamiento | Prioridad
+------------ | -------------
+RNF5.1 Todos los datos de la aplicación serán almacenados en una base de datos relacional | Esencial
+
+RNF6: Acceso óptimo | Prioridad
+------------ | -------------
+RNF6.1 El sistema debe acceder de forma rápida a toda la información que quiera consultar el usuario | Importante
+
+RNF7: Codificación UTF-8 | Prioridad
+------------ | -------------
+RNF7.1 la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
 
