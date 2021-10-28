@@ -74,7 +74,7 @@ RF5: Requisitos agenda | Prioridad
 RF4.1 El usuario podrá indicar la fecha en la que se realizará el evento | Esencial
 RF4.2 El usuario podrá unirse a uno o varios eventos | Esencial
 
-### 2.1.2 Requisitos funcionales (RF)
+### 2.1.2 Requisitos no funcionales (RF)
 
 RNF1: Accesibilidad | Prioridad
 ------------ | -------------
@@ -91,7 +91,6 @@ RNF3.1 Deberá ser compatible con las últimas versiones de los distintos navega
 RNF4: Interfaz adaptable | Prioridad
 ------------ | -------------
 RNF4.1 El diseño de la interfaz de usuario debe adaptarse a cualquier medida de pantalla | Esencial
-
 
 RNF5: Almacenamiento | Prioridad
 ------------ | -------------
