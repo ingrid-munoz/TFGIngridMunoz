@@ -41,6 +41,7 @@ Las actividades para realizar en el proyecto serán:
 ## 1.3 Objetivo del proyecto en ingles
 en ingles
 
+
 # 2. Documento de acuerdo del proyecto
 ## 2.1 Requisitos funcionales y no funcionales
 ### 2.1.1 Requisitos funcionales (RF)
@@ -105,6 +106,11 @@ RNF7: Codificación UTF-8 | Prioridad
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
-
+## 2.2 Lista de tareas
+  1. Analisis de los casos de uso
+  2. Análisis y diseño de la base de datos
+  3. Inserción de datos
+  4. Diseño del prototipo de la aplicación
+  5. 
 
 
