@@ -47,12 +47,12 @@ en ingles
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | ------------ | ------------- |
-| RF1.1 El administrador puede crear, modificar y borrar usuarios | Esencial |
-| RF1.2 El administrador puede borrar eventos del calendario | Esencial |
+| **RF1.1** El administrador puede crear, modificar y borrar usuarios | Esencial |
+| **RF1.2** El administrador puede borrar eventos del calendario | Esencial |
 
-  RF2: Identificación del usuario alumno | Prioridad
-  ------------ | -------------
-  RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana | Esencial
+RF2: Identificación del usuario alumno | Prioridad
+------------ | -------------
+RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana | Esencial
 RF2.2 Si el usuario alumno introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
 RF2.3 Si el usuario alumno introduce un evento inapropiado se le dará un aviso para que lo modifique en un plazo de 8 horas. Si pasado ese plazo no se ha modificado se borrará automáticamente | Esencial
 RF2.4 El usuario alumno podrá unirse a uno o varios eventos | Esencial
