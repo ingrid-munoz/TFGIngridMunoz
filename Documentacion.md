@@ -21,4 +21,22 @@ Los roles se definen a continuación:
   - Rol de profesor, podrá acceder y crear una serie de actividades definidas por categorías específicas para este rol.
   - Rol de padre AMPA, este rol es exclusivo para padres inscritos en el AMPA. También podrá crear una serie de actividades por categorías ya definidas.
 
+## 1.2 Objetivo del proyecto
+El objetivo del proyecto es desarrollar una aplicación web que gestione todas las actividades extraescolares.
+
+La estructura web será diferente según el rol que tenga asignado el usuario que pueda acceder a ese apartado:
+  - El grupo de usuarios pertenecientes al rol de secretaría podrá crear, modificar y eliminar a los alumnos, profesores y padres.
+  - El grupo de usuarios pertenecientes al rol de alumno podrá crear, modificar y eliminar el evento que haya creado en el calendario. 
+  - El grupo de usuarios pertenecientes al rol de profesores podrá crear, modificar y eliminar el evento que haya creado en el calendario. 
+  - El grupo de usuarios pertenecientes al rol de padre del AMPA podrá crear, modificar y eliminar el evento que haya creado en el calendario.
+
+Las actividades para realizar en el proyecto serán:
+
+1.) Análisis de las necesidades y requerimientos del proyecto.
+Seguimiento del tiempo empleado para realizar cada actividad mediante un diagrama de Gantt.
+Diseño y creación de la base de datos.
+Diseño y desarrollo de la aplicación web.
+Pruebas y despliegue de la aplicación.
+
+
 
