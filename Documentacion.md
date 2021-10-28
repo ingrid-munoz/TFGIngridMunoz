@@ -38,5 +38,45 @@ Las actividades para realizar en el proyecto serán:
   4. Diseño y desarrollo de la aplicación web.
   5. Pruebas y despliegue de la aplicación.
 
+## 1.3 Objetivo del proyecto en ingles
+en ingles
 
+# 2. Documento de acuerdo del proyecto
+## 2.1 Requisitos funcionales y no funcionales
+### 2.1.1 Requisitos funcionales (RF)
+
+RF1: Identificación del usuario administrador
+	Prioridad: Esencial
+RF1.1 El administrador puede crear, modificar y borrar usuarios.
+RF1.2 El administrador puede borrar eventos del calendario.
+RF1.3 Si el administrador inserta un usuario ya existente, el sistema lanzará un mensaje de error.
+RF2: Identificación del usuario alumno
+Prioridad: Esencial
+RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana.
+RF2.2 Si el usuario alumno introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error.
+RF2.3 Si el usuario alumno introduce un evento inapropiado se le dará un aviso para que lo modifique en un plazo de 8 horas. Si pasado ese plazo no se ha modificado se borrará automáticamente.
+RF2.4 El usuario alumno podrá unirse a uno o varios eventos
+RF3: Identificación del usuario profesor
+Prioridad: Esencial
+RF3.1 El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda. 
+RF3.2 Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error.
+RF3.3 El usuario profesor podrá informar o borrar si un evento del usuario alumno es inapropiado.
+RF.3.4 El usuario profesor podrá unirse a uno o varios eventos
+
+
+RF4: Identificación del usuario padre AMPA
+	Prioridad: Esencial
+RF4.1 El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda. 
+RF4.2 Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error.
+RF4.3 El usuario padre podrá unirse a uno o varios eventos
+RF5: Requisitos agenda
+	Prioridad: Esencial
+RF4.1 El usuario podrá indicar la fecha en la que se realizará el evento. 
+RF4.2 El usuario podrá unirse a uno o varios eventos.
+
+
+First Header |
+------------ | -------------
+Content from cell 1 fffff
+Content in the first column | Content in the second column
 
