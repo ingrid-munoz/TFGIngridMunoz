@@ -32,11 +32,11 @@ La estructura web será diferente según el rol que tenga asignado el usuario qu
 
 Las actividades para realizar en el proyecto serán:
 
-  1.) Análisis de las necesidades y requerimientos del proyecto.
-  2.) Seguimiento del tiempo empleado para realizar cada actividad mediante un diagrama de Gantt.
-  3.) Diseño y creación de la base de datos.
-  4.) Diseño y desarrollo de la aplicación web.
-  5.) Pruebas y despliegue de la aplicación.
+  1. Análisis de las necesidades y requerimientos del proyecto.
+  2. Seguimiento del tiempo empleado para realizar cada actividad mediante un diagrama de Gantt.
+  3. Diseño y creación de la base de datos.
+  4. Diseño y desarrollo de la aplicación web.
+  5. Pruebas y despliegue de la aplicación.
 
 
 
