@@ -45,16 +45,12 @@ en ingles
 ## 2.1 Requisitos funcionales y no funcionales
 ### 2.1.1 Requisitos funcionales (RF)
 
-RF1: Identificación del usuario administrador | ggg
+RF1: Identificación del usuario administrador | Prioridad
 ------------ | -------------
-RF1.1 El administrador puede crear, modificar y borrar usuarios | Prioridad: Esencial
-RF1.2 El administrador puede borrar eventos del calendario | w
+RF1.1 El administrador puede crear, modificar y borrar usuarios | Esencial
+RF1.2 El administrador puede borrar eventos del calendario | Esencial
 
-RF1: Identificación del usuario administrador
-	Prioridad: Esencial
-RF1.1 El administrador puede crear, modificar y borrar usuarios.
-RF1.2 El administrador puede borrar eventos del calendario.
-RF1.3 Si el administrador inserta un usuario ya existente, el sistema lanzará un mensaje de error.
+
 RF2: Identificación del usuario alumno
 Prioridad: Esencial
 RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana.
