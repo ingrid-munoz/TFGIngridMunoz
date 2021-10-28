@@ -56,25 +56,26 @@ RF2: Identificación del usuario alumno | Prioridad
 RF2.1 El usuario alumno podrá crear, modificar y borrar sus propios eventos de la agenda. Este rol solo podrá crear 2 eventos por semana | Esencial
 RF2.2 Si el usuario alumno introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
 RF2.3 Si el usuario alumno introduce un evento inapropiado se le dará un aviso para que lo modifique en un plazo de 8 horas. Si pasado ese plazo no se ha modificado se borrará automáticamente | Esencial
+RF2.4 El usuario alumno podrá unirse a uno o varios eventos | Esencial
 
-RF2.4 El usuario alumno podrá unirse a uno o varios eventos
-RF3: Identificación del usuario profesor
-Prioridad: Esencial
-RF3.1 El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda. 
-RF3.2 Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error.
-RF3.3 El usuario profesor podrá informar o borrar si un evento del usuario alumno es inapropiado.
-RF.3.4 El usuario profesor podrá unirse a uno o varios eventos
+RF3: Identificación del usuario profesor | Prioridad
+------------ | -------------
+RF3.1 El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda | Esencial
+RF3.2 Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
+RF3.3 El usuario profesor podrá informar o borrar si un evento del usuario alumno es inapropiado | Esencial
+RF.3.4 El usuario profesor podrá unirse a uno o varios eventos | Esencial
+
+RF4: Identificación del usuario padre AMPA | Prioridad
+------------ | -------------
+RF4.1 El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda | Esencial
+RF4.2 El usuario padre podrá unirse a uno o varios eventos | Esencial
+
+RF5: Requisitos agenda | Prioridad
+------------ | -------------
+RF4.1 El usuario podrá indicar la fecha en la que se realizará el evento | Esencial
+RF4.2 El usuario podrá unirse a uno o varios eventos | Esencial
 
 
-RF4: Identificación del usuario padre AMPA
-	Prioridad: Esencial
-RF4.1 El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda. 
-RF4.2 Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error.
-RF4.3 El usuario padre podrá unirse a uno o varios eventos
-RF5: Requisitos agenda
-	Prioridad: Esencial
-RF4.1 El usuario podrá indicar la fecha en la que se realizará el evento. 
-RF4.2 El usuario podrá unirse a uno o varios eventos.
 
 
 
