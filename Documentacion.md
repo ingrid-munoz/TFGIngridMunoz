@@ -107,10 +107,12 @@ RNF7: Codificación UTF-8 | Prioridad
 
 
 ## 2.2 Lista de tareas
-  1. Analisis de los casos de uso
-  2. Análisis y diseño de la base de datos
-  3. Inserción de datos
-  4. Diseño del prototipo de la aplicación
-  5. 
+  1. Análisis y diseño de diagrama de caso de uso.
+  2. Análisis y diseño de la base de datos con diagrama E/R.
+  3. Análisis y diseño de la base de datos con modelo relacional.
+  4. Normalización de la base de datos.
+  5. Insertar datos.
+  6. Prototipo de la aplicación.
+  7. 
 
 
