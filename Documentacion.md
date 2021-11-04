@@ -110,9 +110,10 @@ RNF7: Codificación UTF-8 | Prioridad
   1. Análisis y diseño de diagrama de caso de uso.
   2. Análisis y diseño de la base de datos con diagrama E/R.
   3. Análisis y diseño de la base de datos con modelo relacional.
-  4. Normalización de la base de datos.
-  5. Insertar datos.
-  6. Prototipo de la aplicación.
-  7. 
+  4. 
+  5. Normalización de la base de datos.
+  6. Insertar datos.
+  7. Prototipo de la aplicación.
+  8. 
 
 
