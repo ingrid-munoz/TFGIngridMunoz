@@ -121,12 +121,25 @@ RNF7: Codificación UTF-8 | Prioridad
   10. Realizar pruebas completas de la aplicacion desplegada. 
   
 # 3. Análisis y diseño de la interfaz de usuario
-## 3.1 Esquema Entidad-Relación
+## 3.1 Casos de Uso Esquema Entidad-Relación
+
+![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
+
+## 3.2 Esquema Entidad-Relación
 
 ![diagrama_er](https://user-images.githubusercontent.com/77245013/141770672-09078d71-6231-4606-93d5-61319780bbfe.PNG)
 
-## 3.2 Casos de Uso
+---TABLA CASO DE USOS----
 
-![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
+## 3.3 Modelo Relacional
+
+---FALTA POR HACER---
+
+## 3.4 Normalización de la base de datos
+
+
+
+
+
 
 
