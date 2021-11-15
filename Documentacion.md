@@ -22,13 +22,11 @@ Los roles se definen a continuación:
   - Rol de padre AMPA, este rol es exclusivo para padres inscritos en el AMPA. También podrá crear una serie de actividades por categorías ya definidas.
 
 ## 1.2 Objetivo del proyecto
-El objetivo del proyecto es desarrollar una aplicación web que gestione todas las actividades extraescolares.
+El objetivo del proyecto es desarrollar una aplicación web que gestione las actividades y eventos de un centro educativo mediante un calendario. El usuario estará informado de las ultimas noticias referiras al centro.
 
-La estructura web será diferente según el rol que tenga asignado el usuario que pueda acceder a ese apartado:
-  - El grupo de usuarios pertenecientes al rol de secretaría podrá crear, modificar y eliminar a los alumnos, profesores y padres.
-  - El grupo de usuarios pertenecientes al rol de alumno podrá crear, modificar y eliminar el evento que haya creado en el calendario. 
-  - El grupo de usuarios pertenecientes al rol de profesores podrá crear, modificar y eliminar el evento que haya creado en el calendario. 
-  - El grupo de usuarios pertenecientes al rol de padre del AMPA podrá crear, modificar y eliminar el evento que haya creado en el calendario.
+La aplicación está orientada a ser una extensión o agregación de una página web ya creada y estructurada.
+
+El acceso a la agenda sera solamente para alumnos matriculados en el centro, profesores del centro y padres inscritos en el AMPA. 
 
 Las actividades para realizar en el proyecto serán:
 
@@ -48,26 +46,23 @@ en ingles
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
-| **RF1.1** El administrador puede crear, editar y borrar usuarios | Importante |
-| **RF1.2** El administrador puede crear, editar y borrar actividades del calendario | Esencial |
+| **RF1.1** El administrador podrá crear, editar y borrar usuarios | Importante |
+| **RF1.2** El administrador podrá crear, editar y borrar actividades del calendario | Esencial |
+| **RF1.3** El administrador podrá crear, editar y borrar contenido de la página web  | Esencial |
 
 RF2: Identificación del usuario alumno | Prioridad
 :------------ | :-------------
-**RF2.1** El usuario alumno podrá crear, modificar y borrar sus propias actividades de la agenda | Esencial
-**RF2.2** Si el usuario alumno introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
-**RF2.3** Si el usuario alumno introduce un evento inapropiado se le dará un aviso para que lo modifique en un plazo de 8 horas. Si pasado ese plazo no se ha modificado se borrará automáticamente | Esencial
-**RF2.4** El usuario alumno podrá unirse a uno o varios eventos | Esencial
+**RF2.1** El usuario alumno podrá crear, modificar y borrar sus propias actividades de la agenda | Importante
+**RF2.2** El usuario alumno podrá unirse a uno o varios eventos | Esencial
 
 RF3: Identificación del usuario profesor | Prioridad
 :------------ | :-------------
-**RF3.1** El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda | Esencial
-**RF3.2** Si el usuario profesor introduce su nombre de usuario o contraseña de forma incorrecta, el sistema lanzará un mensaje de error | Esencial
-**RF3.3** El usuario profesor podrá informar o borrar si un evento del usuario alumno es inapropiado | Esencial
-**RF.3.4** El usuario profesor podrá unirse a uno o varios eventos | Esencial
+**RF3.1** El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda | Importante
+**RF.3.2** El usuario profesor podrá unirse a uno o varios eventos | Esencial
 
 RF4: Identificación del usuario padre AMPA | Prioridad
 :------------ | :-------------
-**RF4.1** El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda | Esencial
+**RF4.1** El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda | Importante
 **RF4.2** El usuario padre podrá unirse a uno o varios eventos | Esencial
 
 RF5: Requisitos agenda | Prioridad
