@@ -48,8 +48,8 @@ en ingles
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
-| **RF1.1** El administrador puede crear, modificar y borrar usuarios | Importante |
-| **RF1.2** El administrador puede borrar actividades del calendario | Esencial |
+| **RF1.1** El administrador puede crear, editar y borrar usuarios | Importante |
+| **RF1.2** El administrador puede crear, editar y borrar actividades del calendario | Esencial |
 
 RF2: Identificación del usuario alumno | Prioridad
 :------------ | :-------------
