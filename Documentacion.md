@@ -46,29 +46,36 @@ en ingles
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
-| **RF1.1** El administrador podrá crear, editar y borrar usuarios | Importante |
-| **RF1.2** El administrador podrá crear, editar y borrar actividades del calendario | Esencial |
-| **RF1.3** El administrador podrá crear, editar y borrar contenido de la página web  | Esencial |
+| **RF1.1** El administrador podrá crear, editar y borrar usuarios                                  | Importante |
+| **RF1.2** El administrador podrá crear, editar y borrar actividades del calendario                | Importante |
+| **RF1.3** El administrador podrá crear, editar y borrar contenido de la página web                  | Esencial |
+| **RF1.4** El administrador borrar eventos inapropiados                                            | Importante |
 
-RF2: Identificación del usuario alumno | Prioridad
+RF2: Identificación del usuario registrado alumno | Prioridad
 :------------ | :-------------
-**RF2.1** El usuario alumno podrá crear, modificar y borrar sus propias actividades de la agenda | Importante
-**RF2.2** El usuario alumno podrá unirse a uno o varios eventos | Esencial
+**RF2.1** El usuario alumno podrá crear, modificar y borrar sus propias actividades de la agenda      | Importante
+**RF2.2** El usuario alumno podrá unirse a uno o varios eventos                                       | Esencial
 
-RF3: Identificación del usuario profesor | Prioridad
+RF3: Identificación del usuario registrado profesor | Prioridad
 :------------ | :-------------
-**RF3.1** El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda | Importante
-**RF.3.2** El usuario profesor podrá unirse a uno o varios eventos | Esencial
+**RF3.1** El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda        | Importante
+**RF3.2** El usuario profesor podrá unirse a uno o varios eventos                                     | Esencial
 
-RF4: Identificación del usuario padre AMPA | Prioridad
+RF4: Identificación del usuario registrado padre AMPA | Prioridad
 :------------ | :-------------
-**RF4.1** El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda | Importante
-**RF4.2** El usuario padre podrá unirse a uno o varios eventos | Esencial
+**RF4.1** El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda           | Importante
+**RF4.2** El usuario padre podrá unirse a uno o varios eventos                                        | Esencial
 
 RF5: Requisitos agenda | Prioridad
 :------------ | :-------------
-**RF4.1** El usuario podrá indicar la fecha en la que se realizará el evento | Esencial
-**RF4.2** El usuario podrá unirse a uno o varios eventos | Esencial
+**RF5.1** El usuario podrá indicar la fecha en la que se realizará el evento                          | Esencial
+**RF5.2** El usuario podrá unirse a uno o varios eventos                                              | Opcional
+
+RF6: Requisitos usuario NO registrado | Prioridad
+:------------ | :-------------
+**RF6.1** El usuario sola podra ver la informacion general del centro                                 | Esencial
+**RF6.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse | Importnte
+**RF6.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda | Importnte
 
 ### 2.1.2 Requisitos no funcionales (RF)
 
@@ -90,7 +97,7 @@ RNF4: Interfaz adaptable | Prioridad
 
 RNF5: Almacenamiento | Prioridad
 :------------ | :-------------
-**RNF5.1** Todos los datos de la aplicación serán almacenados en una base de datos relacional | Esencial
+**RNF5.1** Todos los datos de la aplicación serán almacenados en una base de datos relacional | Importante
 
 RNF6: Acceso óptimo | Prioridad
 :------------ | :-------------
@@ -105,10 +112,16 @@ RNF7: Codificación UTF-8 | Prioridad
   1. Análisis y diseño de diagrama de caso de uso.
   2. Análisis y diseño de la base de datos con diagrama E/R.
   3. Análisis y diseño de la base de datos con modelo relacional.
-  4. 
-  5. Normalización de la base de datos.
-  6. Insertar datos.
-  7. Prototipo de la aplicación.
-  8. 
+  4. Normalización de la base de datos.
+  5. Prototipo de la aplicación.
+  6. Aplicaciones que se usuaran para crear la aplicación.
+  7. Desarrollar la aplicación.
+  8. Insertar datos.
+  9. Realizar pruebas individuales por rol de usuarios.
+  10. Realizar pruebas completas de la aplicacion desplegada. 
+  
+# 3. Análisis y diseño de la interfaz de usuario
+## 3.1 Esquema Entidad-Relación
+
 
 
