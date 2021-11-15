@@ -112,7 +112,7 @@ RNF7: Codificación UTF-8 | Prioridad
   1. Análisis y diseño de diagrama de caso de uso.
   2. Análisis y diseño de la base de datos con diagrama E/R.
   3. Análisis y diseño de la base de datos con modelo relacional.
-  4. Normalización de la base de datos.
+  4. ????.
   5. Prototipo de la aplicación.
   6. Aplicaciones que se usuaran para crear la aplicación.
   7. Desarrollar la aplicación.
@@ -121,7 +121,7 @@ RNF7: Codificación UTF-8 | Prioridad
   10. Realizar pruebas completas de la aplicacion desplegada. 
   
 # 3. Análisis y diseño de la interfaz de usuario
-## 3.1 Casos de Uso Esquema Entidad-Relación
+## 3.1 Casos de Uso
 
 ![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
 
@@ -133,9 +133,7 @@ RNF7: Codificación UTF-8 | Prioridad
 
 ## 3.3 Modelo Relacional
 
----FALTA POR HACER---
-
-## 3.4 Normalización de la base de datos
+![esquema_relacional](https://user-images.githubusercontent.com/77245013/141815866-24d3a3ed-9bef-495b-9e93-d6a064ea1b8a.PNG)
 
 
 
