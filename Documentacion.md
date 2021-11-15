@@ -123,5 +123,6 @@ RNF7: Codificación UTF-8 | Prioridad
 # 3. Análisis y diseño de la interfaz de usuario
 ## 3.1 Esquema Entidad-Relación
 
+![diagrama_er](https://user-images.githubusercontent.com/77245013/141770672-09078d71-6231-4606-93d5-61319780bbfe.PNG)
 
 
