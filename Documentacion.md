@@ -126,5 +126,7 @@ RNF7: Codificación UTF-8 | Prioridad
 ![diagrama_er](https://user-images.githubusercontent.com/77245013/141770672-09078d71-6231-4606-93d5-61319780bbfe.PNG)
 
 ## 3.2 Casos de Uso
-![](imagenes/diagrama_caso-uso.png)
+
+![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
+
 
