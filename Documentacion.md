@@ -121,7 +121,7 @@ RNF7: Codificación UTF-8 | Prioridad
   10. Realizar pruebas individuales por rol de usuarios.
   11. Realizar pruebas completas de la aplicacion desplegada. 
   
-# 3. Análisis y diseño de la interfaz de usuario
+# 3. Análisis y diseño de la base de datos
 ## 3.1 Casos de Uso 
 
 ![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
@@ -181,4 +181,4 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 
 --ME FALTA--
 
-
+# 4. Diseño de la interfaz de usuario
