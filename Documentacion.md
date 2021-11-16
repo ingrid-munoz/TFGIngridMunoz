@@ -175,8 +175,10 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 
 ## 3.4 Modelo Relacional
 
+![modelo_relacional](https://user-images.githubusercontent.com/77245013/142024321-4d6c7cb2-f863-4a74-811a-6816d3ef5f9e.PNG)
 
+## 3.5 Diagrama de Clases
 
-
+--ME FALTA--
 
 
