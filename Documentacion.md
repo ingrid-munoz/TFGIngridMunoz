@@ -134,11 +134,41 @@ RNF7: Codificación UTF-8 | Prioridad
 
 ## 3.3 Esquema Relacional
 
-
+![esquema_relacional](https://user-images.githubusercontent.com/77245013/142009866-76a738f1-fb0a-4a37-8981-17f668603632.PNG)
 
 ### Tablas que se usaran
 
 Usuario(id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto)
-CP:{id_usuario}
+    CP:{id_usuario}
+AMPA(id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto)
+    CP:{id_usuario}
+Alumno(id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, id_curso)
+    CP:{id_usuario}
+    CAj:{id_curso} referencia a Curso
+Curso (id_curso, nombre_curso)
+    CP{id_curso}
+Profesor(id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, id_departamento)
+    CP:{id_usuario}
+    CAj:{id_departamento} referencia a Departamento
+Departamento(id_departamento, nombre_departamento)
+    CP:{id_departamento}
+Agenda (id_agenda, fecha, hora, id_actividad)
+    CP:{id_agenda}
+    CAj:{id_actividad} referencia a Actividad    
+Actividad (id_actividad, tipo_de_usuario, titulo_actividad, descripcion)
+    CP:{id_actividad}
+Usuario_Agenda (id_usuario, id_agenda)
+    CP:{id_usuario, id_agenda}
+    CAj:{id_usuario} referencia a Usuario  
+    CAj:{id_agenda} referencia a Agenda  
+Usuario_Actividad (id_usuario, id_actividad)
+    CP:{id_usuario, id_actividad}
+    CAj:{id_usuario} referencia a Usuario 
+    CAj:{id_actividad} referencia a Actividad 
+
+
+
+
+
 
 
