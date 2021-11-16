@@ -109,36 +109,36 @@ RNF7: Codificación UTF-8 | Prioridad
 
 
 ## 2.2 Lista de tareas
-  1. Análisis y diseño de diagrama de caso de uso.
-  2. Análisis y diseño de la base de datos con diagrama E/R.
-  3. Análisis y diseño de la base de datos con modelo relacional.
-  4. ????.
-  5. Prototipo de la aplicación.
-  6. Aplicaciones que se usuaran para crear la aplicación.
-  7. Desarrollar la aplicación.
-  8. Insertar datos.
-  9. Realizar pruebas individuales por rol de usuarios.
-  10. Realizar pruebas completas de la aplicacion desplegada. 
+  1. Análisis y diseño de diagrama de caso de uso.+
+  2. Análisis y diseño de la base de datos con diagrama E/R. +
+  3. Análisis y diseño de la base de datos con esquema relacional.
+  4. Análisis y diseño de la base de datos con modelo relacional (forma grafica en la base de datos).
+  5. Análisis y diseño de la base de datos con diagrama de clases (modelo php-laravel).
+  6. Prototipo de la aplicación. 
+  7. Aplicaciones que se usuaran para crear la aplicación.
+  8. Desarrollar la aplicación.
+  9. Insertar datos.
+  10. Realizar pruebas individuales por rol de usuarios.
+  11. Realizar pruebas completas de la aplicacion desplegada. 
   
 # 3. Análisis y diseño de la interfaz de usuario
-## 3.1 Casos de Uso
+## 3.1 Casos de Uso 
 
 ![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
 
-## 3.2 Esquema Entidad-Relación
+## 3.2 Diagrama Entidad-Relación 
 
 ![diagrama_er](https://user-images.githubusercontent.com/77245013/141770672-09078d71-6231-4606-93d5-61319780bbfe.PNG)
 
 ---TABLA CASO DE USOS----
 
-## 3.3 Modelo Relacional
-
-![modelo_relacional](https://user-images.githubusercontent.com/77245013/142002336-59fc853e-c7b5-4c5c-8803-31c90b049c5b.PNG)
+## 3.3 Esquema Relacional
 
 
 
+### Tablas que se usaran
 
-
-
+Usuario(id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto)
+CP:{id_usuario}
 
 
