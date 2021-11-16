@@ -112,7 +112,7 @@ RNF7: Codificación UTF-8 | Prioridad
   1. Análisis y diseño de diagrama de caso de uso.+
   2. Análisis y diseño de la base de datos con diagrama E/R. +
   3. Análisis y diseño de la base de datos con esquema relacional. +
-  4. Análisis y diseño de la base de datos con modelo relacional (forma grafica en la base de datos).
+  4. Análisis y diseño de la base de datos con modelo relacional (forma grafica en la base de datos). +
   5. Análisis y diseño de la base de datos con diagrama de clases (modelo php-laravel).
   6. Prototipo de la aplicación. 
   7. Aplicaciones que se usuaran para crear la aplicación.
@@ -133,8 +133,6 @@ RNF7: Codificación UTF-8 | Prioridad
 ---TABLA CASO DE USOS----
 
 ## 3.3 Esquema Relacional
-
-![esquema_relacional](https://user-images.githubusercontent.com/77245013/142009866-76a738f1-fb0a-4a37-8981-17f668603632.PNG)
 
 ### Tablas que se usaran
 
@@ -175,6 +173,7 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 &emsp; &ensp; CAj:{id_usuario} referencia a Usuario  
 &emsp; &ensp; CAj:{id_actividad} referencia a Actividad   
 
+## 3.4 Modelo Relacional
 
 
 
