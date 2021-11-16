@@ -133,7 +133,8 @@ RNF7: Codificación UTF-8 | Prioridad
 
 ## 3.3 Modelo Relacional
 
-![esquema_relacional](https://user-images.githubusercontent.com/77245013/141815866-24d3a3ed-9bef-495b-9e93-d6a064ea1b8a.PNG)
+![modelo_relacional](https://user-images.githubusercontent.com/77245013/142002336-59fc853e-c7b5-4c5c-8803-31c90b049c5b.PNG)
+
 
 
 
