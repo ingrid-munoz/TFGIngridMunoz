@@ -182,3 +182,15 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 --ME FALTA--
 
 # 4. Diseño de la interfaz de usuario
+## Inicio
+
+
+
+
+
+
+
+
+
+
+
