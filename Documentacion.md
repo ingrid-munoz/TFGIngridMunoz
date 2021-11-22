@@ -182,11 +182,37 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 --ME FALTA--
 
 # 4. Diseño de la interfaz de usuario
-## Inicio
 
+### Inicio
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/142902081-8b8b2b5b-9958-4b1b-b329-a9727fab29d8.PNG" alt="Inicio">
+</p>
 
+Inicio mostrara una lista con toda la información sobre todos los grados que imparte el centro. Tambien se mostraran los botones de redes sociales.
 
+### Secretaria
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/142902223-3a37ed55-95b2-4846-a443-9bf3afad1a73.PNG" alt="Secretaria">
+</p>
+Secretaria mostrara el horario de atencion de secretaria, un formulario de contacto y la ubicacion del centro.
 
+### Alumnos
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/142902704-acbc3e89-5bf4-457b-aa3d-4fdb8d2117cd.PNG" alt="Inicio sesión alumno">
+</p>
+Alumnos mostrara un inicio de sesion solo para alumnos.
+
+### Profesores
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/142903052-b17e7fe1-be5f-4b4a-a900-42c5a308358f.PNG" alt="Inicio sesión profesor">
+</p>
+Profesores mostrara un inicio de sesion solo para profesores.
+
+### AMPA
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/142903121-5ec5d277-95c7-4834-8441-5fc260890a6f.PNG" alt="Inicio sesión ampa">
+</p>
+AMPA mostrara un inicio de sesion solo para usuarios del AMPA.
 
 
 
