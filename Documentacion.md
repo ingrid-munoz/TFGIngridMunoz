@@ -219,7 +219,7 @@ AMPA mostrara un inicio de sesion solo para usuarios del AMPA.
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/143006308-9674c095-88f9-4b81-848f-e7d562364197.PNG" alt="Inicio usuario registrado">
 </p>
-Una vez que le usuario a iniciado sesión, en el menú aparecera la opción Agenda Escolar. Además, se añade el botón de Perfil y Salir.
+Una vez que el usuario a iniciado sesión, en el menú aparecera la opción Agenda Escolar. Además, se añade el botón de Perfil y Salir.
 
 ### Agenda Escolar
 <p align="center">
