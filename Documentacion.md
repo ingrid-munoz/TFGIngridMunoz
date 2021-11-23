@@ -182,12 +182,12 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 --ME FALTA--
 
 # 4. Diseño de la interfaz de usuario
+## Interfaz para usuario no registrado
 
 ### Inicio
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/142902081-8b8b2b5b-9958-4b1b-b329-a9727fab29d8.PNG" alt="Inicio">
 </p>
-
 Inicio mostrara una lista con toda la información sobre todos los grados que imparte el centro. Tambien se mostraran los botones de redes sociales.
 
 ### Secretaria
@@ -214,6 +214,24 @@ Profesores mostrara un inicio de sesion solo para profesores.
 </p>
 AMPA mostrara un inicio de sesion solo para usuarios del AMPA.
 
+## Interfaz para usuario registrado
+### Inicio 2
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143006308-9674c095-88f9-4b81-848f-e7d562364197.PNG" alt="Inicio usuario registrado">
+</p>
+Una vez que le usuario a iniciado sesión, en el menú aparecera la opción Agenda Escolar. Además, se añade el botón de Perfil y Salir.
+
+### Agenda Escolar
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143021480-c0ac97c5-3a95-4dca-9c3f-920b557fcee5.png" alt="Agenda Escolar">
+</p>
+En Agenda Escolar, el usuario puede crear, editar y eliminar una actividad.
+
+### Perfil
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143023973-475295e7-5434-4f8f-8840-84b438a07982.PNG" alt="Agenda Escolar">
+</p>
+En Perfil el usuario puede ver las actividades que ha creado y en las cuales se ha unido.
 
 
 
