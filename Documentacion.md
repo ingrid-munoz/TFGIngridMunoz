@@ -229,10 +229,15 @@ En Agenda Escolar, el usuario puede crear, editar y eliminar una actividad.
 
 ### Perfil
 <p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143023973-475295e7-5434-4f8f-8840-84b438a07982.PNG" alt="Agenda Escolar">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143023973-475295e7-5434-4f8f-8840-84b438a07982.PNG" alt="Perfil usuario">
 </p>
 En Perfil el usuario puede ver las actividades que ha creado y en las cuales se ha unido.
 
+### Cambiar contraseña
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143042147-59220247-7747-405d-869b-f639d4794108.PNG" alt="Cambiar contraseña">
+</p>
+En Cambiar contraseña el usuario podra cambiar la contraseña, debiendo escribir su correo, contraseña actual y nueva contraseña.
 
 
 
