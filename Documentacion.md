@@ -114,7 +114,7 @@ RNF7: Codificación UTF-8 | Prioridad
   3. Análisis y diseño de la base de datos con esquema relacional. +
   4. Análisis y diseño de la base de datos con modelo relacional (forma grafica en la base de datos). +
   5. Análisis y diseño de la base de datos con diagrama de clases (modelo php-laravel).
-  6. Prototipo de la aplicación. 
+  6. Prototipo de la aplicación. +
   7. Aplicaciones que se usuaran para crear la aplicación.
   8. Desarrollar la aplicación.
   9. Insertar datos.
@@ -290,6 +290,7 @@ En **Crear actividad** el administrador podra crear actividades. Se mostrará el
     <img width="600" src="https://user-images.githubusercontent.com/77245013/143265055-4a63834a-4bde-4cfc-8182-cb2dc1170300.PNG" alt="Crear actividad">
 </p>    
      
+# 5. Diseño de la arquitectura  
 
      
 
