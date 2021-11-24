@@ -291,6 +291,15 @@ En **Crear actividad** el administrador podra crear actividades. Se mostrará el
 </p>    
      
 # 5. Diseño de la arquitectura  
+.
+.
+.
+      
+# 6. Manual de instalación
+.
+.
+.
+       
 
      
 
