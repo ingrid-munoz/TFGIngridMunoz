@@ -284,6 +284,11 @@ El administrador solo podrá borrar las actividades que incumplan las reglas.
     <img width="600" src="" alt="Borrar actividad">
 </p>    
     
+En **Crear actividad** el administrador podra crear actividades. Se mostrará el calendario donde debera indicar todos los datos para crear la actividad.  
+      
+<p align="center">
+    <img width="600" src="" alt="Crear actividad">
+</p>    
 
        
 
