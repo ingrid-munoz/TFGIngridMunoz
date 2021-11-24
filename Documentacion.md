@@ -136,20 +136,20 @@ RNF7: Codificación UTF-8 | Prioridad
 
 ### Tablas que se usaran
 
-_Usuario_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto)  
+_Usuario_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email)  
 &emsp; &ensp; CP:{id_usuario}    
 
-_AMPA_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto)  
+_AMPA_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email)  
 &emsp; &ensp; CP:{id_usuario}  
 
-_Alumno_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, id_curso)  
+_Alumno_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email, id_curso)  
 &emsp; &ensp; CP:{id_usuario}  
 &emsp; &ensp; CAj:{id_curso} referencia a Curso  
 
-_Curso_(**id_curso**, nombre_curso)   
+_Curso_(**id_curso**, nombre_curso, tipo_grado)   
 &emsp; &ensp; CP{id_curso}  
 
-_Profesor_(**id_usuario**id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, id_departamento)  
+_Profesor_(**id_usuario**id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email, id_departamento)  
 &emsp; &ensp; CP:{id_usuario}  
 &emsp; &ensp; CAj:{id_departamento} referencia a Departamento  
 
@@ -196,28 +196,28 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
     <img width="600" src="https://user-images.githubusercontent.com/77245013/142902223-3a37ed55-95b2-4846-a443-9bf3afad1a73.PNG" alt="Secretaria">
 </p>   
           
-**Secretaria** mostrara el horario de atencion de secretaria, un formulario de contacto y la ubicacion del centro.
+**Secretaria** mostrara el horario de atención de secretaria, un formulario de contacto y la ubicación del centro.
 
 ### Alumnos
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/142902704-acbc3e89-5bf4-457b-aa3d-4fdb8d2117cd.PNG" alt="Inicio sesión alumno">
 </p>   
            
-**Alumnos** mostrara un inicio de sesion solo para alumnos.
+**Alumnos** mostrara un inicio de sesión solo para alumnos.
 
 ### Profesores
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/142903052-b17e7fe1-be5f-4b4a-a900-42c5a308358f.PNG" alt="Inicio sesión profesor">
 </p>   
            
-**Profesores** mostrara un inicio de sesion solo para profesores.
+**Profesores** mostrara un inicio de sesión solo para profesores.
 
 ### AMPA
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/142903121-5ec5d277-95c7-4834-8441-5fc260890a6f.PNG" alt="Inicio sesión ampa">
 </p>   
             
-**AMPA** mostrara un inicio de sesion solo para usuarios del AMPA.
+**AMPA** mostrara un inicio de sesión solo para usuarios del AMPA.
 
 ## Interfaz para usuario registrado
 ### Inicio 2
@@ -233,6 +233,8 @@ Una vez que el usuario a iniciado sesión, en el menú aparecera la opción **Ag
 </p>  
         
 En **Agenda Escolar**, el usuario puede crear, editar y eliminar una actividad.
+     
+**FALTA PONER EJEMPLO DE COMO SE CREAR, EDITAR Y ELIMINAR.**
 
 ### Perfil
 <p align="center">
