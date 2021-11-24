@@ -273,24 +273,25 @@ Tambien, aparece el botón de **Crear Alumno** donde se mostraran todos los camp
        
 ### Gestión agenda escolar
 <p align="center">
-    <img width="600" src="" alt="Gestión agenda">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143264218-9642b205-f752-4771-8bf3-85fbc039d6dc.PNG" alt="Gestión agenda">
 </p>   
     
 En **Gestión agenda escolar** el administrador gestionar todas las actividades de todos los usuarios del centro, ya sean alumnos, profesores o padres. Para ello, primero debera buscar por el dni del usuario. Mostrará: id usuario, nombre, apellido y email. Acontinuacion, se mostrara el listado que las actividades que ha ido creando y en las cuales esta unido.    
      
-El administrador solo podrá borrar las actividades que incumplan las reglas.   
+El administrador solo podrá borrar las actividades que incumplan las normas.   
        
 <p align="center">
-    <img width="600" src="" alt="Borrar actividad">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143264714-00718a24-303b-48bf-9ed0-036eef40a6d3.PNG" alt="Borrar actividad">
 </p>    
     
 En **Crear actividad** el administrador podra crear actividades. Se mostrará el calendario donde debera indicar todos los datos para crear la actividad.  
       
 <p align="center">
-    <img width="600" src="" alt="Crear actividad">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/143265055-4a63834a-4bde-4cfc-8182-cb2dc1170300.PNG" alt="Crear actividad">
 </p>    
+     
 
-       
+     
 
       
 
