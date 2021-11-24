@@ -275,8 +275,20 @@ Tambien, aparece el botón de **Crear Alumno** donde se mostraran todos los camp
 <p align="center">
     <img width="600" src="" alt="Gestión agenda">
 </p>   
+    
+En **Gestión agenda escolar** el administrador gestionar todas las actividades de todos los usuarios del centro, ya sean alumnos, profesores o padres. Para ello, primero debera buscar por el dni del usuario. Mostrará: id usuario, nombre, apellido y email. Acontinuacion, se mostrara el listado que las actividades que ha ido creando y en las cuales esta unido.    
+     
+El administrador solo podrá borrar las actividades que incumplan las reglas.   
+       
+<p align="center">
+    <img width="600" src="" alt="Borrar actividad">
+</p>    
+    
+
+       
+
       
-.
+
 
 
 
