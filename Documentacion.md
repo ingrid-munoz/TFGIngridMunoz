@@ -261,16 +261,20 @@ Se le pedira el nombre del usuario administrador y la contraseña.
     <img width="600" src="https://user-images.githubusercontent.com/77245013/143211372-420f4ac9-4db9-4dd6-8066-a825bc65d1aa.PNG" alt="Gestión alumno">
 </p>  
        
-En **Gestión alumno** el administrador podrá buscar un usuario introduciendo su nie o dni. La información se mostrará bloqueada hasta que el administrador marque mediante un radio button que opcion quiere hacer. id_usuario SIEMPRE estará bloqueado y no se podra modificar.  
+En **Gestión alumno** el administrador podrá buscar un usuario introduciendo su nie o dni. La información se mostrará bloqueada hasta que el administrador marque mediante un radio button que opcion quiere hacer. **id_usuario SIEMPRE estará bloqueado y no se podra modificar.**  
         
 Tambien, aparece el botón de **Crear Alumno** donde se mostraran todos los campos vacios, excepto **id_usuario** que se asigna automaticamente. El administrador introducira el nuevo usuario.  
 
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/143216034-93297d2b-13b5-4c3c-bd80-3002cd28f971.PNG" alt="Crear alumno">
-</p>
-
-
-
+</p>   
+       
+### Gestión agenda escolar
+<p align="center">
+    <img width="600" src="" alt="Gestión agenda">
+</p>   
+      
+.
 
 
 
