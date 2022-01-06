@@ -28,7 +28,12 @@
     6.4 Precio técnico y de venta    
     6.5 Análisis de Riesgo    
     
-7.     
+7. Análisis y diseño de la base de datos   
+    7.1 Esquema Entidad-Relación    
+    7.2 Casos de Uso    
+    7.3 Esquema Relacional    
+    7.4 Script de la base de datos   
+    7.5 Diagrama de Clases  
 
 
 # 1. Documento Descripcion del proyecto
