@@ -6,7 +6,29 @@
 # ÍNDICE
 1. Documento Descripcion del proyecto   
     1.1 Ámbito y entorno    
-    1.2 Análisis de la realidad
+    1.2 Análisis de la realidad    
+    1.3 Solución y justificación de la solución    
+    1.4 Destinatarios    
+     
+2. Objetivo del proyecto   
+     
+3. Objetivo del proyecto en lengua extranjera    
+    
+4. Requisitos funcionales y no funcionales   
+    4.1 Requisitos funcionales (RF)   
+    4.2 Requisitos no funcionales (RNF)    
+    
+5. Lista de tareas    
+    ...    
+    
+6. Planificación del proyecto       
+    6.1 Metodologia de trabajo    
+    6.2 Diagrama de Gantt    
+    6.3 Presupuesto    
+    6.4 Precio técnico y de venta    
+    6.5 Análisis de Riesgo    
+    
+7.     
 
 
 # 1. Documento Descripcion del proyecto
