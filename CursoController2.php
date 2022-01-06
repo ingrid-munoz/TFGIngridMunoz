@@ -15,7 +15,7 @@ class CursoController extends Controller
     public function index()
     {
         //
-        $datos['cursos']=Curso::paginate(15);
+        $datos['cursos']=Curso::paginate(5);
         return view('curso.index',$datos);
     }
 
@@ -42,10 +42,8 @@ class CursoController extends Controller
         //$datosCurso = request()->all();
         $datosCurso = request()->except('_token');
         Curso::insert($datosCurso);
-        //return response()->json($datosCurso)->with('mensaje','Curso agregado con exito');
-        return redirect('curso')->with('mensaje','Usuario agregado con exito');
+        return response()->json($datosCurso);
     }
-
 
     /**
      * Display the specified resource.
@@ -55,17 +53,7 @@ class CursoController extends Controller
      */
     public function show(Curso $curso)
     {
-        // Buscar informacion a partir del id
-        //$curso=Curso::findOrFail($curso);
-        //$curso=Curso::all();
-        //return view('curso.show', compact('curso'));
-
-        //return view("curso.show",['curso'=>$curso]);
-        //return redirect("curso.index");
-
-        $curso = Curso::all();
-        return response()->json($curso);
-
+        //
     }
 
     /**
@@ -74,10 +62,10 @@ class CursoController extends Controller
      * @param  \App\Models\Curso  $curso
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($id_curso)
     {
         // Buscar informacion a partir del id
-        $curso=Curso::findOrFail($id);
+        $curso=Curso::findOrFail($id_curso);
         return view('curso.edit', compact('curso'));
     }
 
@@ -88,15 +76,15 @@ class CursoController extends Controller
      * @param  \App\Models\Curso  $curso
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id_curso)
     {
         //
         // Recibimos los datos y le quitamos el token y el method
         $datosCurso = request()->except(['_token','_method']);
-        Curso::where('id','=',$id)->update($datosCurso);
+        Curso::where('id_curso','=',$id_curso)->update($datosCurso);
 
         //Realiza la actualizacion y vuelve al formulario
-        $curso=Curso::findOrFail($id);
+        $curso=Curso::findOrFail($id_curso);
         return view('curso.edit', compact('curso'));
     }
 
@@ -106,10 +94,10 @@ class CursoController extends Controller
      * @param  \App\Models\Curso  $curso
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id_curso)
     {
         //
-        Curso::destroy($id);
-        return redirect('curso')->with('mensaje','Curso borrado con exito');
+        Curso::destroy($id_curso);
+        return redirect('curso');
     }
 }

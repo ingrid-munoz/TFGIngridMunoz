@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Usuario extends Model
 {
     use HasFactory;
+
+    // RELACION N:m
+    //public function eventos(){
+    //    return $this->belongsToMany('App\Models\Evento');
+    //}
+
 }

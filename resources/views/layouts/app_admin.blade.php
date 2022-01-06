@@ -42,40 +42,14 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="{{route('home')}}">Inicio</a>
+                <a class="nav-link" href="#">Gestion usuarios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('secretaria')}}">Secretaria</a>
+                <a class="nav-link" href="#">Gestion cursos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('curso.index')}}">Cursos</a>
+                <a class="nav-link" href="#">Gestion agenda</a>
             </li>
-
-            @if(auth()->guest())
-
-            <li class="nav-item">
-                <a class="nav-link" href="{{route('login')}}">Iniciar sesión</a>
-            </li>
-
-            @else
-
-            <li class="nav-item">
-                 <a class="nav-link" href="{{route('user.index')}}">Usuarios</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="{{route('evento')}}">Agenda</a>
-            </li>
-
-            <li class="nav-item">
-                <form action="{{route('logout')}}" method="POST">
-                   <input type="submit" value="logout">
-                   @csrf
-                </form>
-            </li>
-
-            @endif
-
         </ul>
     </div>
 </nav>
@@ -85,20 +59,6 @@
         <main class="py-4">
             @yield('content')
         </main>
-
-
-<footer class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div>
-    <!-- Facebook -->
-    <a class="btn btn-primary" style="background-color: #55acee;" href="http://twitter.com" role="button">
-        <i class="fab fa-twitter me-2"></i>Twitter
-    </a>
-    <!-- Twitter -->
-    <a class="btn btn-primary" style="background-color: #3b5998;" href="http://facebook.com" role="button">
-        <i class="fa fa-facebook me-2"></i>Facebook
-    </a>
-    </div>
-</footer>
 
 </body>
 </html>

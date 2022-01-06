@@ -38,7 +38,8 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest');
+        // COMENTANDO ESTA LINEA HAGO QUE EL ADMIN PUEDA CREAR USUARIOS CON el register SIN QUE SE SALGA DE LA SESION
+        //$this->middleware('guest');
     }
 
     /**
@@ -51,9 +52,16 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
+            'apellido1' => ['required', 'string', 'max:255'],
+            'apellido2' => ['required', 'string', 'max:255'],
+            'dni' => ['required', 'string', 'max:9', 'unique:users'],
+            'direccion' => ['required', 'string', 'max:255'],
+            'telefono_contacto' => ['required', 'string', 'max:255'],
+            'tipo_usuario' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
+
     }
 
     /**
@@ -66,6 +74,12 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
+            'apellido1' => $data['apellido1'],
+            'apellido2' => $data['apellido2'],
+            'dni' => $data['dni'],
+            'direccion' => $data['direccion'],
+            'telefono_contacto' => $data['telefono_contacto'],
+            'tipo_usuario' => $data['tipo_usuario'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);

@@ -17,7 +17,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    //public const HOME = '/home';
+    //public const HOME = '/';
+    // Con esta ruta me lleva a user despues del register pero lo hace con todos los usuarios no solo para el admin
+    //public const HOME = 'user';
+    public const HOME = '/';
 
     /**
      * The controller namespace for the application.
