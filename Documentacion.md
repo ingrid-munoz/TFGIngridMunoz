@@ -14,41 +14,57 @@
      
 3. Objetivo del proyecto en lengua extranjera    
     
-4. Requisitos funcionales y no funcionales   
+4. Requisitos 
     4.1 Requisitos funcionales (RF)   
     4.2 Requisitos no funcionales (RNF)    
+    4.3 Lista de tareas    
     
-5. Lista de tareas    
-    ...    
+5. Planificación del proyecto       
+    5.1 Metodologia de trabajo    
+    5.2 Diagrama de Gantt    
+    5.3 Presupuesto    
+    5.4 Precio técnico y de venta    
+    5.5 Análisis de Riesgo    
     
-6. Planificación del proyecto       
-    6.1 Metodologia de trabajo    
-    6.2 Diagrama de Gantt    
-    6.3 Presupuesto    
-    6.4 Precio técnico y de venta    
-    6.5 Análisis de Riesgo    
+6. Análisis y diseño de la base de datos   
+    6.1 Esquema Entidad-Relación    
+    6.2 Casos de Uso    
+    6.3 Esquema Relacional    
+    6.4 Script de la base de datos   
+    6.5 Diagrama de Clases   
+
+7. Implementación y pruebas    
+    7.1 Pruebas Funcionales    
+    7.2 Manual de Instalación    
+    7.3 Manual de Usuario    
+    7.4 Resultados obtenidos y conclusiones    
+    7.5 Agradecimientos    
     
-7. Análisis y diseño de la base de datos   
-    7.1 Esquema Entidad-Relación    
-    7.2 Casos de Uso    
-    7.3 Esquema Relacional    
-    7.4 Script de la base de datos   
-    7.5 Diagrama de Clases  
+8. Anexos    
+    8.1 Presupuesto    
+    8.2 Contrato    
+    8.3 Documento de pruebas funcionales        
+    8.4 Manual de usuario        
+    
+   
+   
+   
+    
 
 
 # 1. Documento Descripcion del proyecto
-### 1.1 Ámbito y entorno
+## 1.1 Ámbito y entorno
 Este proyecto está orientado a la creación de un web para un centro educativo, en el cual habra una agenda virtual para alumnos, profesores y padres en la cual podre crear actividades o eventos fuera y dentro del horario escolar.
 
-### 1.2 Análisis de la realidad
+## 1.2 Análisis de la realidad
 Actualmente, en la mayoría de las webs de centros educativos no disponen de un apartado para actividades extraescolares, ya sea para alumnos, profesorado o padres.
 
 El objetivo es desarrollar una aplicación web para la gestión de eventos del profesorado, padres del AMPA y del alumnado en un centro educativo. Son muchas las actividades y eventos que se realizan en un centro educativo (cenas empresa, charlas, jornadas, lotería, evaluaciones, cursos piee...) por ello se requiere una aplicación que permita su gestión centralizada.
 
-### 1.3 Solución y justificación de la solución 
+## 1.3 Solución y justificación de la solución 
 La aplicación permitirá dar de alta, baja, modificación de eventos dirigidos a 3 roles diferentes: alumnos, profesores y padres en un calendario. Permitirá añadir noticias sobre eventos. Permitirá inscribirse en el evento lo que conlleva el recibir avisos y notificaciones relacionados con ese evento. Como es obvio permitirá también el darse de baja del evento.
 
-### 1.4 Destinatarios
+## 1.4 Destinatarios
 Los usuarios destinatarios del proyecto serán todos los alumnos, profesores y padres del AMPA del centro educativo. Cada usuario tendrá su correspondiente nombre de usuario, contraseña y rol. El usuario deberá autenticarse para poder acceder a la aplicación.
 
 Los roles se definen a continuación:
@@ -57,7 +73,7 @@ Los roles se definen a continuación:
   - Rol de profesor, podrá acceder y crear una serie de actividades definidas por categorías específicas para este rol.
   - Rol de padre AMPA, este rol es exclusivo para padres inscritos en el AMPA. También podrá crear una serie de actividades por categorías ya definidas.
 
-## 1.2 Objetivo del proyecto
+# 2. Objetivo del proyecto
 El objetivo del proyecto es desarrollar una aplicación web que gestione las actividades y eventos de un centro educativo mediante un calendario. El usuario estará informado de las ultimas noticias referiras al centro.
 
 La aplicación está orientada a ser una extensión o agregación de una página web ya creada y estructurada.
@@ -72,13 +88,12 @@ Las actividades para realizar en el proyecto serán:
   4. Diseño y desarrollo de la aplicación web.
   5. Pruebas y despliegue de la aplicación.
 
-## 1.3 Objetivo del proyecto en ingles
+# 3. Objetivo del proyecto en ingles
 en ingles
 
 
-# 2. Documento de acuerdo del proyecto
-## 2.1 Requisitos funcionales y no funcionales
-### 2.1.1 Requisitos funcionales (RF)
+# 4. Requisitos funcionales y no funcionales
+## 4.1 Requisitos funcionales (RF)
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
@@ -113,7 +128,7 @@ RF6: Requisitos usuario NO registrado | Prioridad
 **RF6.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse | Importnte
 **RF6.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda | Importnte
 
-### 2.1.2 Requisitos no funcionales (RF)
+## 4.2 Requisitos no funcionales (RF)
 
 RNF1: Accesibilidad | Prioridad
 :------------ | :-------------
