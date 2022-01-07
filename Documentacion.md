@@ -194,6 +194,9 @@ Código |  Descrición |  Duración en horas
 La metodologia elegida para este proyecto es la metodología tradicional.Se ha hecho énfasis en la planificación total de todo el trabajo a realizar y una vez que está todo detallado, comienza el ciclo de desarrollo del proyecto.     
    
 ### 5.2 Diagrama de Gantt   
+<p align="center">
+    <img width="800" src="https://user-images.githubusercontent.com/77245013/148611843-b8f7dbeb-a52c-4819-8404-4f0b1f7ddbfd.PNG" alt="Diagrama de Gantt">
+</p>   
 
 ### 5.3 Presupuesto   
 ### 5.4 Precio técnico y de venta   
