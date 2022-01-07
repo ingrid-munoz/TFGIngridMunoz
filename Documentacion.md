@@ -259,11 +259,30 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 ññ
          
 ### 6.6 Diseño de interfaces   
-#### 6.6.1 Interfaz para usuario no registrado    
-**Inicio** mostrara una lista con toda la información sobre todos los grados que imparte el centro. Tambien se mostraran los botones de redes sociales.      
+#### 6.6.1 Interfaz para usuario no registrado   
+
+**Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148484378-a3a4da3f-8329-4397-a1fa-0ed3d76409e1.PNG" alt="Inicio">
-</p> 
+</p>      
+
+**Secretaria** mostrara el horario de atención de secretaria, un formulario de contacto y la ubicación del centro.   
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148484782-5d0bb6c9-50df-49e3-a4fd-68258f506ff9.PNG" alt="Secretaria">
+</p>    
+  
+**Formación Profesional** mostrara una lista con toda la información sobre todos los grados que imparte el centro.   
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148485431-2a6b691a-e09e-458b-9814-5f25f79e0cc7.PNG" alt="Formación Profesional">
+</p>    
+   
+**Iniciar Sesión** mostrara un inicio de sesión solo para los usuarios del centro.  
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148485460-bc05cc10-2a45-495e-873b-6b61c5be2aef.PNG" alt="Iniciar Sesión">
+</p>    
+
+#### 6.6.2 Interfaz para usuario registrado
+
     
        
 ## 7. Implementación y pruebas    
@@ -272,121 +291,11 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
   
 
 
-### Inicio
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/142902081-8b8b2b5b-9958-4b1b-b329-a9727fab29d8.PNG" alt="Inicio">
-</p>  
-           
-**Inicio** mostrara una lista con toda la información sobre todos los grados que imparte el centro. Tambien se mostraran los botones de redes sociales.
 
-### Secretaria
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/142902223-3a37ed55-95b2-4846-a443-9bf3afad1a73.PNG" alt="Secretaria">
-</p>   
-          
-**Secretaria** mostrara el horario de atención de secretaria, un formulario de contacto y la ubicación del centro.
 
-### Alumnos
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/142902704-acbc3e89-5bf4-457b-aa3d-4fdb8d2117cd.PNG" alt="Inicio sesión alumno">
-</p>   
-           
-**Alumnos** mostrara un inicio de sesión solo para alumnos.
 
-### Profesores
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/142903052-b17e7fe1-be5f-4b4a-a900-42c5a308358f.PNG" alt="Inicio sesión profesor">
-</p>   
-           
-**Profesores** mostrara un inicio de sesión solo para profesores.
 
-### AMPA
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/142903121-5ec5d277-95c7-4834-8441-5fc260890a6f.PNG" alt="Inicio sesión ampa">
-</p>   
-            
-**AMPA** mostrara un inicio de sesión solo para usuarios del AMPA.
 
-## Interfaz para usuario registrado
-### Inicio 2
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143006308-9674c095-88f9-4b81-848f-e7d562364197.PNG" alt="Inicio usuario registrado">
-</p>   
-       
-Una vez que el usuario a iniciado sesión, en el menú aparecera la opción **Agenda Escolar**. Además, se añade el botón de **Perfil** y **Salir**.
-
-### Agenda Escolar
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143021480-c0ac97c5-3a95-4dca-9c3f-920b557fcee5.png" alt="Agenda Escolar">
-</p>  
-        
-En **Agenda Escolar**, el usuario puede crear, editar y eliminar una actividad.
-     
-**FALTA PONER EJEMPLO DE COMO SE CREAR, EDITAR Y ELIMINAR.**
-
-### Perfil
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143023973-475295e7-5434-4f8f-8840-84b438a07982.PNG" alt="Perfil usuario">
-</p>  
-      
-En **Perfil** el usuario puede ver las actividades que ha creado y en las cuales se ha unido.
-
-### Cambiar contraseña
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143042147-59220247-7747-405d-869b-f639d4794108.PNG" alt="Cambiar contraseña">
-</p>  
-        
-En **Cambiar contraseña** el usuario podra cambiar la contraseña, debiendo escribir su correo, contraseña actual y nueva contraseña.
-
-## Interfaz para administrador
-### Iniciar sesión
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143210019-700cf65e-d342-401a-94d3-9bed27c4d189.PNG" alt="Inicio sesión administrador">
-</p>
-Para que el administrador acceda a inicio de sesión debe escribir en la url: https://agendaescolar.es/admin_cedu
-Se le pedira el nombre del usuario administrador y la contraseña.
-
-### Gestión alumno
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143211372-420f4ac9-4db9-4dd6-8066-a825bc65d1aa.PNG" alt="Gestión alumno">
-</p>  
-       
-En **Gestión alumno** el administrador podrá buscar un usuario introduciendo su nie o dni. La información se mostrará bloqueada hasta que el administrador marque mediante un radio button que opcion quiere hacer. **id_usuario SIEMPRE estará bloqueado y no se podra modificar.**  
-        
-Tambien, aparece el botón de **Crear Alumno** donde se mostraran todos los campos vacios, excepto **id_usuario** que se asigna automaticamente. El administrador introducira el nuevo usuario.  
-
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143216034-93297d2b-13b5-4c3c-bd80-3002cd28f971.PNG" alt="Crear alumno">
-</p>   
-       
-### Gestión agenda escolar
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143264218-9642b205-f752-4771-8bf3-85fbc039d6dc.PNG" alt="Gestión agenda">
-</p>   
-    
-En **Gestión agenda escolar** el administrador gestionar todas las actividades de todos los usuarios del centro, ya sean alumnos, profesores o padres. Para ello, primero debera buscar por el dni del usuario. Mostrará: id usuario, nombre, apellido y email. Acontinuacion, se mostrara el listado que las actividades que ha ido creando y en las cuales esta unido.    
-     
-El administrador solo podrá borrar las actividades que incumplan las normas.   
-       
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143264714-00718a24-303b-48bf-9ed0-036eef40a6d3.PNG" alt="Borrar actividad">
-</p>    
-    
-En **Crear actividad** el administrador podra crear actividades. Se mostrará el calendario donde debera indicar todos los datos para crear la actividad.  
-      
-<p align="center">
-    <img width="600" src="https://user-images.githubusercontent.com/77245013/143265055-4a63834a-4bde-4cfc-8182-cb2dc1170300.PNG" alt="Crear actividad">
-</p>    
-     
-# 5. Diseño de la arquitectura  
-.
-.
-.
-      
-# 6. Manual de instalación
-.
-.
-.
        
 
      
