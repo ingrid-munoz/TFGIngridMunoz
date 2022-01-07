@@ -160,7 +160,7 @@ RNF7: Codificación UTF-8 | Prioridad
 
 ### 4.3 Lista de tareas    
      
-Código |  Descrición |  Duración h      
+Código |  Descrición |  Duración en horas      
 :----- | :-------- | :---------    
 **T1** |  Especificación de los casos de uso | **26**    
 **T1.1** | Funcionalidad del administrador para gestionar la web | 5    
@@ -172,13 +172,22 @@ Código |  Descrición |  Duración h
 **T2.2** | Casos de Uso | 1    
 **T2.3** | Esquema Relacional | 1    
 **T2.4** | Script de la base de datos | 1    
-**T2.5** | Diagrama de Clases | 1    
+**T2.5** | Diagrama de Clases | 1     
+**T3** | Diseño interfaz gráfica | **16**
+**T3.1** | Crear interfaz gráfica pantalla Inicio | 2    
+**T3.2** | Crear interfaz gráfica pantalla Secretaria | 2       
+**T3.3** | Crear interfaz gráfica pantalla Cursos | 3    
+**T3.4** | Crear interfaz gráfica pantalla Usuarios | 3    
+**T3.5** | Crear interfaz gráfica pantalla Agenda | 5    
+**T3.6** | Crear interfaz gráfica pantalla Registro | 2    
+**T4** | Implementación de la aplicación | **28**    
+**T4.1** | Desarrollo método para crear, editar, listar y borrar usuarios | 8    
+**T4.2** | Desarrollo método para crear, editar, listar y borrar cursos | 8    
+**T4.3** | Desarrollo método para crear, editar, listar y borrar eventos | 8    
+**T4.4** | Desarrollo método para recibir correos desde el formulario de contactos | 4    
 
-  1. Análisis y diseño de diagrama de caso de uso.+
-  2. Análisis y diseño de la base de datos con diagrama E/R. +
-  3. Análisis y diseño de la base de datos con esquema relacional. +
-  4. Análisis y diseño de la base de datos con modelo relacional (forma grafica en la base de datos). +
-  5. Análisis y diseño de la base de datos con diagrama de clases (modelo php-laravel).
+
+ 
   6. Prototipo de la aplicación. +
   7. Aplicaciones que se usuaran para crear la aplicación.
   8. Desarrollar la aplicación.
