@@ -97,33 +97,23 @@ en ingles
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
 | **RF1.1** El administrador podrá crear, editar y borrar usuarios                                  | Importante |
-| **RF1.2** El administrador podrá crear, editar y borrar actividades del calendario                | Importante |
-| **RF1.3** El administrador podrá crear, editar y borrar contenido de la página web                  | Esencial |
+| **RF1.2** El administrador podrá crear, editar y borrar eventos del calendario                    | Importante |
+| **RF1.3** El administrador podrá crear, editar y borrar cursos                                    | Esencial |
 
-RF2: Identificación del usuario registrado alumno | Prioridad
+RF2: Identificación del usuario registrado | Prioridad
 :------------ | :-------------
-**RF2.1** El usuario alumno podrá crear, modificar y borrar sus propias actividades de la agenda      | Importante
-**RF2.2** El usuario alumno podrá unirse a uno o varios eventos                                       | Esencial
+**RF2.1** El usuario podrá crear eventos en la agenda                                                 | Esencial
+**RF2.2** El usuario podrá unirse a uno o varios eventos                                              | Opcional
 
-RF3: Identificación del usuario registrado profesor | Prioridad
+RF3: Requisitos agenda | Prioridad
 :------------ | :-------------
-**RF3.1** El usuario profesor podrá crear, modificar y borrar sus propios eventos de la agenda        | Importante
-**RF3.2** El usuario profesor podrá unirse a uno o varios eventos                                     | Esencial
+**RF3.1** El usuario podrá indicar el titulo, descripción y fecha en la que se realizará el evento     | Esencial
 
-RF4: Identificación del usuario registrado padre AMPA | Prioridad
+RF4: Requisitos usuario NO registrado | Prioridad
 :------------ | :-------------
-**RF4.1** El usuario padre podrá crear, modificar y borrar sus propios eventos de la agenda           | Importante
-**RF4.2** El usuario padre podrá unirse a uno o varios eventos                                        | Esencial
-
-RF5: Requisitos agenda | Prioridad
-:------------ | :-------------
-**RF5.1** El usuario podrá indicar la el titulo, descripción y fecha en la que se realizará el evento                          | Esencial
-
-RF6: Requisitos usuario NO registrado | Prioridad
-:------------ | :-------------
-**RF6.1** El usuario sola podra ver las paginas de Inicio, Secretaria, Cursos y Login                                 | Esencial
-**RF6.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse | Importnte
-**RF6.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda | Importnte
+**RF4.1** El usuario sola podra ver las paginas de Inicio, Secretaria, Cursos y Login                               | Importante
+**RF4.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse          | Importnte
+**RF4.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda     | Importnte
 
 ### 4.2 Requisitos no funcionales (RF)
 
@@ -209,7 +199,16 @@ La metodologia elegida para este proyecto es la metodología tradicional.Se ha h
      
 ### 6.2 Casos de Uso   
      
-![diagrama_caso-uso](https://user-images.githubusercontent.com/77245013/148480302-34b00f7d-a14e-4ba9-aa23-bc438f2b4ebb.PNG)   
+![diagrama_caso-uso](https://user-images.githubusercontent.com/77245013/148480302-34b00f7d-a14e-4ba9-aa23-bc438f2b4ebb.PNG)    
+
+![cu1](https://user-images.githubusercontent.com/77245013/148620004-ba063e96-79a9-4483-a3a3-09b37b8048b8.PNG)    
+
+![cu2](https://user-images.githubusercontent.com/77245013/148620015-dd0dd3e5-298d-4795-9c94-d55ac5a2f175.PNG)   
+
+![cu3](https://user-images.githubusercontent.com/77245013/148620022-e3d6c289-ad26-4beb-b86a-08b3310d6672.PNG)
+
+![cu4](https://user-images.githubusercontent.com/77245013/148620024-f3c39d1a-d3e5-47a7-a449-4dc1c8ac467f.PNG)
+
        
 ### 6.3 Esquema Relacional    
         
