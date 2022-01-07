@@ -3,8 +3,6 @@
 ![Logo agenda](https://user-images.githubusercontent.com/77245013/148461952-68bf2a81-cabd-4bfa-bf18-04dd9b15e1b1.png)
 
 
-
-
 # ÍNDICE
 1. Documento Descripcion del proyecto   
     1.1 Ámbito y entorno    
@@ -190,12 +188,13 @@ Código |  Descrición |  Duración en horas
 **T5.1** | Realizar pruebas individuales por rol de usuarios | 3    
 **T5.2** | Realizar pruebas completas de la aplicacion desplegada | 2    
 **Total de horas** |  | **81** 
- 
-   
      
 ## 5. Planificación del proyecto    
-### 5.1 Metodologia de trabajo    
+### 5.1 Metodologia de trabajo   
+La metodologia elegida para este proyecto es la metodología tradicional.Se ha hecho énfasis en la planificación total de todo el trabajo a realizar y una vez que está todo detallado, comienza el ciclo de desarrollo del proyecto.     
+   
 ### 5.2 Diagrama de Gantt   
+
 ### 5.3 Presupuesto   
 ### 5.4 Precio técnico y de venta   
 ### 5.5 Análisis de riesgo   
@@ -281,8 +280,33 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148485460-bc05cc10-2a45-495e-873b-6b61c5be2aef.PNG" alt="Iniciar Sesión">
 </p>    
 
-#### 6.6.2 Interfaz para usuario registrado
+#### 6.6.2 Interfaz para usuario registrado Admin   
 
+**Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148596808-70c462ab-826d-4a7d-8cb8-d37135ad57e7.PNG" alt="Inicio de admin">
+</p>    
+
+**Formación Profesional** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148596989-25cdaeb4-ced0-4618-bdde-f06efbb37c45.PNG" alt="Gestión cursos de admin">
+</p>      
+
+**Usuarios** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148597116-7b8cfcff-f6b6-4320-8d1c-b7885a77a154.PNG" alt="Gestión usuarios de admin">
+</p>    
+
+**Agenda** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148597273-30d47a04-6425-467f-944a-302148fba49b.PNG" alt="Gestión eventos de admin">
+</p> 
+   
+#### 6.6.3 Interfaz para usuario registrado    
+**Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148597863-b93a4b64-ceac-4442-8c2e-bcd433c61590.PNG" alt="Agenda usuario registrado">
+</p> 
     
        
 ## 7. Implementación y pruebas    
