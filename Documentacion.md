@@ -259,8 +259,11 @@ _Usuario_Actividad_(**id_usuario, id_actividad**)
 ññ
          
 ### 6.6 Diseño de interfaces   
-#### 6.6.1 Interfaz para usuario no registrado
-     
+#### 6.6.1 Interfaz para usuario no registrado    
+**Inicio** mostrara una lista con toda la información sobre todos los grados que imparte el centro. Tambien se mostraran los botones de redes sociales.      
+<p align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/77245013/148484378-a3a4da3f-8329-4397-a1fa-0ed3d76409e1.PNG" alt="Inicio">
+</p> 
     
        
 ## 7. Implementación y pruebas    
