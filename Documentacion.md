@@ -1,6 +1,8 @@
 # Agenda Escolar
 
-![Logo agenda](https://bmdistribucions.store/wp-content/uploads/2018/10/446784.png)
+![Logo agenda](https://user-images.githubusercontent.com/77245013/148461952-68bf2a81-cabd-4bfa-bf18-04dd9b15e1b1.png)
+
+
 
 
 # ÍNDICE
@@ -99,7 +101,6 @@ en ingles
 | **RF1.1** El administrador podrá crear, editar y borrar usuarios                                  | Importante |
 | **RF1.2** El administrador podrá crear, editar y borrar actividades del calendario                | Importante |
 | **RF1.3** El administrador podrá crear, editar y borrar contenido de la página web                  | Esencial |
-| **RF1.4** El administrador borrar eventos inapropiados                                            | Importante |
 
 RF2: Identificación del usuario registrado alumno | Prioridad
 :------------ | :-------------
@@ -118,12 +119,11 @@ RF4: Identificación del usuario registrado padre AMPA | Prioridad
 
 RF5: Requisitos agenda | Prioridad
 :------------ | :-------------
-**RF5.1** El usuario podrá indicar la fecha en la que se realizará el evento                          | Esencial
-**RF5.2** El usuario podrá unirse a uno o varios eventos                                              | Opcional
+**RF5.1** El usuario podrá indicar la el titulo, descripción y fecha en la que se realizará el evento                          | Esencial
 
 RF6: Requisitos usuario NO registrado | Prioridad
 :------------ | :-------------
-**RF6.1** El usuario sola podra ver la informacion general del centro                                 | Esencial
+**RF6.1** El usuario sola podra ver las paginas de Inicio, Secretaria, Cursos y Login                                 | Esencial
 **RF6.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse | Importnte
 **RF6.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda | Importnte
 
@@ -158,7 +158,22 @@ RNF7: Codificación UTF-8 | Prioridad
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
-### 4.3 Lista de tareas
+### 4.3 Lista de tareas    
+     
+Código |  Descrición |  Duración h      
+:----- | :-------- | :---------    
+**T1** |  Especificación de los casos de uso | **26**    
+**T1.1** | Funcionalidad del administrador para gestionar la web | 5    
+**T1.2** | Caso de uso del administrador para gestionar usuarios | 8       
+**T1.3** | Caso de uso del administrador para gestionar cursos | 5     
+**T1.4** | Caso de uso del administrador para gestionar eventos | 8     
+**T2** | Análisis y diseño de la base de datos| **5**      
+**T2.1** | Esquema Entidad-Relación | 1    
+**T2.2** | Casos de Uso | 1    
+**T2.3** | Esquema Relacional | 1    
+**T2.4** | Script de la base de datos | 1    
+**T2.5** | Diagrama de Clases | 1    
+
   1. Análisis y diseño de diagrama de caso de uso.+
   2. Análisis y diseño de la base de datos con diagrama E/R. +
   3. Análisis y diseño de la base de datos con esquema relacional. +
