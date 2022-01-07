@@ -213,47 +213,47 @@ La metodologia elegida para este proyecto es la metodología tradicional.Se ha h
 ### 6.3 Esquema Relacional    
         
 ![esquema_relacional](https://user-images.githubusercontent.com/77245013/148481786-6fa1d679-9049-4cf2-bf1b-d8866a167d65.PNG)    
-                
-_Usuario_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email)  
-&emsp; &ensp; CP:{id_usuario}    
-
-_AMPA_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email)  
-&emsp; &ensp; CP:{id_usuario}  
-
-_Alumno_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email, id_curso)  
-&emsp; &ensp; CP:{id_usuario}  
-&emsp; &ensp; CAj:{id_curso} referencia a Curso  
-
-_Curso_(**id_curso**, nombre_curso, tipo_grado)   
-&emsp; &ensp; CP{id_curso}  
-
-_Profesor_(**id_usuario**id_usuario, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email, id_departamento)  
-&emsp; &ensp; CP:{id_usuario}  
-&emsp; &ensp; CAj:{id_departamento} referencia a Departamento  
-
-_Departamento_(**id_departamento**, nombre_departamento)  
-&emsp; &ensp; CP:{id_departamento}  
-
-_Agenda_(**id_agenda**, fecha, hora, id_actividad)    
-&emsp; &ensp; CP:{id_agenda}  
-&emsp; &ensp; CAj:{id_actividad} referencia a Actividad     
-
-_Actividad_(**id_actividad**, tipo_de_usuario, titulo_actividad, descripcion)  
-&emsp; &ensp; CP:{id_actividad}  
-
-_Usuario_Agenda_(**id_usuario, id_agenda**)  
-&emsp; &ensp; CP:{id_usuario, id_agenda}  
-&emsp; &ensp; CAj:{id_usuario} referencia a Usuario    
-&emsp; &ensp; CAj:{id_agenda} referencia a Agenda    
-
-_Usuario_Actividad_(**id_usuario, id_actividad**)    
-&emsp; &ensp; CP:{id_usuario, id_actividad}  
-&emsp; &ensp; CAj:{id_usuario} referencia a Usuario  
-&emsp; &ensp; CAj:{id_actividad} referencia a Actividad                   
-            
+                                           
 ### 6.4 Script de la base de datos   
         
-ññ
+```
+CREATE TABLE `cursos` (
+  `id` bigint UNSIGNED NOT NULL,
+  `familia_profesional` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `nombre_curso` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tipo_grado` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `descripcion` varchar(500) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `eventos` (
+  `id` bigint UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `descripcion` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `start` datetime NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `users` (
+  `id` bigint UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `apellido1` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `apellido2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `dni` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `direccion` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `telefono_contacto` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tipo_usuario` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email_verified_at` timestamp NULL DEFAULT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+```
          
 ### 6.5 Diagrama de Clases   
         
