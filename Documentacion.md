@@ -201,31 +201,18 @@ Código |  Descrición |  Duración en horas
 ### 5.5 Análisis de riesgo   
     
 ## 6. Análisis y diseño de la base de datos    
-### 6.1 Esquema Entidad-Relación   
-### 6.2 Casos de Uso   
-### 6.3 Esquema Relacional    
-### 6.4 Script de la base de datos    
-### 6.5 Diagrama de Clases    
+### 6.1 Esquema Entidad-Relación    
+      
+![diagrama_er](https://user-images.githubusercontent.com/77245013/148478960-abd12450-4d0e-4956-af54-383ac0b532fb.PNG)   
      
-## 7. Implementación y pruebas    
-### 7.1 Pruebas Funcionales    
-### 7.2 Manual de Instalación   
-  
-## 3. Análisis y diseño de la base de datos
-## 3.1 Casos de Uso 
-
-![diagrama_casos-uso](https://user-images.githubusercontent.com/77245013/141775270-a5825a3b-80ef-4815-afd2-3a6c948cda6f.PNG)
-
-## 3.2 Diagrama Entidad-Relación 
-
-![diagrama_er](https://user-images.githubusercontent.com/77245013/141770672-09078d71-6231-4606-93d5-61319780bbfe.PNG)
-
----TABLA CASO DE USOS----
-
-## 3.3 Esquema Relacional
-
-### Tablas que se usaran
-
+### 6.2 Casos de Uso   
+     
+![diagrama_caso-uso](https://user-images.githubusercontent.com/77245013/148480302-34b00f7d-a14e-4ba9-aa23-bc438f2b4ebb.PNG)   
+       
+### 6.3 Esquema Relacional    
+        
+![esquema_relacional](https://user-images.githubusercontent.com/77245013/148481786-6fa1d679-9049-4cf2-bf1b-d8866a167d65.PNG)    
+                
 _Usuario_(**id_usuario**, dnie, nombre, apellido1, apellido2, dirección, teléfono_contacto, email)  
 &emsp; &ensp; CP:{id_usuario}    
 
@@ -261,18 +248,26 @@ _Usuario_Agenda_(**id_usuario, id_agenda**)
 _Usuario_Actividad_(**id_usuario, id_actividad**)    
 &emsp; &ensp; CP:{id_usuario, id_actividad}  
 &emsp; &ensp; CAj:{id_usuario} referencia a Usuario  
-&emsp; &ensp; CAj:{id_actividad} referencia a Actividad   
+&emsp; &ensp; CAj:{id_actividad} referencia a Actividad                   
+            
+### 6.4 Script de la base de datos   
+        
+ññ
+         
+### 6.5 Diagrama de Clases   
+        
+ññ
+         
+### 6.6 Diseño de interfaces   
+#### 6.6.1 Interfaz para usuario no registrado
+     
+    
+       
+## 7. Implementación y pruebas    
+### 7.1 Pruebas Funcionales    
+### 7.2 Manual de Instalación   
+  
 
-## 3.4 Modelo Relacional
-
-![modelo_relacional](https://user-images.githubusercontent.com/77245013/142024321-4d6c7cb2-f863-4a74-811a-6816d3ef5f9e.PNG)
-
-## 3.5 Diagrama de Clases
-
---ME FALTA--
-
-# 4. Diseño de la interfaz de usuario
-## Interfaz para usuario no registrado
 
 ### Inicio
 <p align="center">
