@@ -167,12 +167,13 @@ Código |  Descrición |  Duración en horas
 **T1.2** | Caso de uso del administrador para gestionar usuarios | 8       
 **T1.3** | Caso de uso del administrador para gestionar cursos | 5     
 **T1.4** | Caso de uso del administrador para gestionar eventos | 8     
-**T2** | Análisis y diseño de la base de datos| **5**      
+**T2** | Análisis y diseño de la base de datos| **6**      
 **T2.1** | Esquema Entidad-Relación | 1    
 **T2.2** | Casos de Uso | 1    
 **T2.3** | Esquema Relacional | 1    
 **T2.4** | Script de la base de datos | 1    
 **T2.5** | Diagrama de Clases | 1     
+**T2.6** | inserción de datos  | 1     
 **T3** | Diseño interfaz gráfica | **16**
 **T3.1** | Crear interfaz gráfica pantalla Inicio | 2    
 **T3.2** | Crear interfaz gráfica pantalla Secretaria | 2       
@@ -184,16 +185,13 @@ Código |  Descrición |  Duración en horas
 **T4.1** | Desarrollo método para crear, editar, listar y borrar usuarios | 8    
 **T4.2** | Desarrollo método para crear, editar, listar y borrar cursos | 8    
 **T4.3** | Desarrollo método para crear, editar, listar y borrar eventos | 8    
-**T4.4** | Desarrollo método para recibir correos desde el formulario de contactos | 4    
-
-
+**T4.4** | Desarrollo método para recibir correos desde el formulario de contactos | 4        
+**T5** | Realización de pruebas | **5**       
+**T5.1** | Realizar pruebas individuales por rol de usuarios | 3    
+**T5.2** | Realizar pruebas completas de la aplicacion desplegada | 2    
+**Total de horas** |  | **81** 
  
-  6. Prototipo de la aplicación. +
-  7. Aplicaciones que se usuaran para crear la aplicación.
-  8. Desarrollar la aplicación.
-  9. Insertar datos.
-  10. Realizar pruebas individuales por rol de usuarios.
-  11. Realizar pruebas completas de la aplicacion desplegada.    
+   
      
 ## 5. Planificación del proyecto    
 ### 5.1 Metodologia de trabajo    
