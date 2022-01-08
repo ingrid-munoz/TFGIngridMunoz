@@ -489,6 +489,10 @@ php artisan serve --host 0.0.0.0 &
 7º. Escribimos en el navegador: localhost:8000    
 
 ## 7.3 Manual de Usuario   
+
+
+
+
 ## 7.4 Resultados obtenidos y conclusiones    
 La realización del Trabajo Fin de Ciclo (TFC) contribuye a demostrar las habilidades adquiridas a lo largo de estos dos años de formación en el Ciclo Superior en Desarrollo de Aplicaciones Web.   
 
@@ -516,16 +520,18 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 # 8. Anexos    
 ## 8.1 Presupuesto    
 
-
-
-
+ññ
 
 ## 8.2 Contrato    
 
-
+![contrato1](https://user-images.githubusercontent.com/77245013/148663269-ef7e7e08-4bc1-4380-952f-4b798a4ecb25.PNG)  
+![contrato2](https://user-images.githubusercontent.com/77245013/148663274-5abe3fff-c3e0-489f-bef5-80533efbc565.PNG)
+![c3](https://user-images.githubusercontent.com/77245013/148663279-12240570-d5e4-4fcf-9566-5938fcdf1842.PNG)
+![c4](https://user-images.githubusercontent.com/77245013/148663282-f8ecc7f4-8a17-43db-bc3b-fe3dfa209d1c.PNG)
+![c5](https://user-images.githubusercontent.com/77245013/148663283-d1c693df-17d5-47a9-80c0-4e22b4e85462.PNG)
 
 ## 8.3 Documento de pruebas funcionales        
-## 8.4 Manual de usuario
+
   
 
 
