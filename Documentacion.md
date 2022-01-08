@@ -444,6 +444,10 @@ RF5 | Requisitos agenda
 
 
 ## 7.2 Manual de Instalación   
+
+
+
+
 ## 7.3 Manual de Usuario   
 ## 7.4 Resultados obtenidos y conclusiones 
 ## 7.5 Agradecimientos
