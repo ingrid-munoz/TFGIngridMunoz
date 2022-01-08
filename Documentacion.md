@@ -95,8 +95,29 @@ Las actividades para realizar en el proyecto serán:
 en ingles
 
 
-# 4. Requisitos funcionales y no funcionales
-## 4.1 Requisitos funcionales (RF)
+# 4. Requisitos  
+## 4.1 Requisitos de aplicación  
+Se trabajará con el entorno de PhpStorm, el framework de Laravel y el lenguaje de marcas HTML con Bootstrap. 
+
+## 4.2 Requisitos de la interfaz   
+El cliente interactuara con la aplicación a través de las opciones del menu.  
+
+### 4.2.1 Pantalla Inicio   
+Se mostrará información y descripción del centro.
+
+### 4.2.2 Pantalla Secretaria   
+Se mostrará un formulario de contacto y ubicación del centro.
+
+### 4.2.3 Pantalla Formación Profesional  
+Se mostrará una lista con todos los grados que imparte el centro.
+
+### 4.2.4 Pantalla Usuarios  
+Se mostrará una lista con todos los usuarios registrados en el centro. Esta opción es solo para el administrador.
+
+### 4.2.5 Pantalla Agenda  
+Se mostrará un calendario donde el usuario deberá elegir la fecha en la que crear el evento. Esta opción solo se mostrará para los usuarios logeados.
+
+## 4.3 Requisitos funcionales (RF)
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
@@ -119,7 +140,7 @@ RF4: Requisitos usuario NO registrado | Prioridad
 **RF4.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse          | Importnte
 **RF4.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda     | Importnte
 
-## 4.2 Requisitos no funcionales (RF)
+## 4.4 Requisitos no funcionales (RF)
 
 RNF1: Accesibilidad | Prioridad
 :------------ | :-------------
@@ -150,7 +171,7 @@ RNF7: Codificación UTF-8 | Prioridad
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
-## 4.3 Lista de tareas    
+## 4.5 Lista de tareas    
      
 Código |  Descrición |  Duración en horas      
 :----- | :-------- | :---------    
