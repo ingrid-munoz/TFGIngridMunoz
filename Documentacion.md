@@ -15,9 +15,16 @@
 3. Objetivo del proyecto en lengua extranjera    
     
 4. Requisitos     
-    4.1 Requisitos funcionales (RF)   
-    4.2 Requisitos no funcionales (RNF)    
-    4.3 Lista de tareas    
+    4.1 Requisitos de aplicación   
+    4.2 Requisitos de la interfaz   
+&nbsp;&nbsp;&nbsp;&nbsp; 4.2.1 Pantalla Inicio    
+&nbsp;&nbsp;&nbsp;&nbsp; 4.2.2 Pantalla Secretaria    
+&nbsp;&nbsp;&nbsp;&nbsp; 4.2.3 Pantalla Formación Profesional    
+&nbsp;&nbsp;&nbsp;&nbsp; 4.2.4 Pantalla Usuarios    
+&nbsp;&nbsp;&nbsp;&nbsp; 4.2.5 Pantalla Agenda        
+    4.3 Requisitos funcionales (RF)   
+    4.4 Requisitos no funcionales (RNF)    
+    4.5 Lista de tareas    
     
 5. Planificación del proyecto       
     5.1 Metodologia de trabajo    
