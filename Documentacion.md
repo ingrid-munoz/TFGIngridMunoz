@@ -429,6 +429,7 @@ Datos de salida | d). Deberá pulsar el botón de Guardar Dato para que se produ
 Datos de salida | e). Para borrar deberá elegir el curso y pulsar sobre el botón de Borrar. OK
 
 RF4 | Identificación del usuario registrado
+:----- | :-------- 
 **Precondición** | Ser alumno, profesor o padre del centro  
 **Datos de entrada** | El usuario debe estar logeado en la aplicación
 **Datos de salida** | a). El usuario elige el día en el que crear el evento. OK    
@@ -437,16 +438,37 @@ Datos de salida | c). Deberá pulsar el botón de Guardar para que se produzcan 
 Datos de salida | e). El evento se mostrará en el calendario. OK
 
 RF5 | Requisitos agenda
+:----- | :-------- 
 **Precondición** | Haber iniciado sesión   
 **Datos de entrada** | El usuario debe estar logeado en la aplicación
 **Datos de salida** | a). El usuario debe ir a la opción del menu Agenda. OK    
 
-
-
 ## 7.2 Manual de Instalación   
+La aplicación se encuentra actualmente en desarrollo. Para el despliegue en local se ha utilizado Docker.    
+El repositorio de este proyecto se encuentra en GitHub: https://github.com/ingrid-munoz/Proyecto   
 
+**Pasos Instalación Local**   
+Los requisitos son:     
+    - Servidor web Apache2   
+    - Base de datos MySQL    
+    - PhpStorm 7.3    
 
+1º. Instalamos Docker Desktop para Windows desde su web oficial https://www.docker.com/products/docker-desktop    
+2º. Una vez instalado, abrimos una ventana de cmd y escribimos:    
 
+Se trabajará sobre la utlima versión de Ubuntu.
+```
+> docker pull ubuntu:latest
+> docker run --name nombreDelProyecto -it -p 8000:8000 -p 80:80 -v C:\CarpetaDondeSeGuardara:/var/www/html ubuntu:latest bash   
+> apt-get update
+> apt-get install apache2 php libapache2-mod-php vim net-tools
+```
+3º. Ahora creamos un nuevo proyecto con Laravel    
+```
+> cd rutaDelProyecto
+> Laravel new NombreDelProyecto
+> curl -sS https://getcomposer.org/installer
+```
 
 ## 7.3 Manual de Usuario   
 ## 7.4 Resultados obtenidos y conclusiones 
