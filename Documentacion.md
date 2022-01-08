@@ -373,6 +373,10 @@ CREATE TABLE `users` (
 ## 7. Implementación y pruebas    
 ### 7.1 Pruebas Funcionales    
 ### 7.2 Manual de Instalación   
+### 7.3 Manual de Usuario   
+### 7.4 Resultados obtenidos y conclusiones 
+### 7.5 Agradecimientos
+### 7.6 Webgrafía
   
 
 
