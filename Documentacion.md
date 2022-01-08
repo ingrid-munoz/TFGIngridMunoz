@@ -369,6 +369,52 @@ CREATE TABLE `users` (
        
 # 7. Implementación y pruebas    
 ## 7.1 Pruebas Funcionales    
+
+RF1 | El administrador podrá crear, editar y borrar usuarios
+:----- | :-------- 
+**Precondición** | Estar logeado como Administrador   
+**Datos de entrada** | Se crearán, editarán o borrarán los usuarios  
+**Datos de salida** | a). El administrador pulsará sobre la opción que deseé. OK    
+Datos de salida | b). Para crear deberá rellenar todos los datos del formulario. OK
+Datos de salida | c). Para editar deberá elegir los campos a editar. OK
+Datos de salida | d). Deberá pulsar el botón de Guardar Datos para que se produzcan los cambios. OK
+Datos de salida | e). Para borrar deberá elegir el usuario y pulsar sobre el botón de Borrar. OK
+
+RF2 | El administrador podrá crear, editar y borrar eventos del calendario
+:----- | :-------- 
+**Precondición** | Estar logeado como Administrador   
+**Datos de entrada** | Se crearán, editarán o borrarán los eventos 
+**Datos de salida** | a). El administrador pulsará sobre la opción que deseé. OK    
+Datos de salida | b). Para crear deberá rellenar todos los datos del formulario. OK
+Datos de salida | c). Para editar deberá elegir los campos a editar. OK
+Datos de salida | d). Deberá pulsar el botón de Guardar para que se produzcan los cambios. OK
+Datos de salida | e). Para borrar deberá elegir el evento y pulsar sobre el botón de Borrar. OK
+
+RF3 | El administrador puede crear, editar y borrar cursos
+:----- | :-------- 
+**Precondición** | Estar logeado como Administrador   
+**Datos de entrada** | Se crearán, editatán, o borrarán los cursos
+**Datos de salida** | a). El administrador pulsará sobre la opción que deseé. OK    
+Datos de salida | b). Para crear un curso deberá rellenar todos los datos del formulario. OK
+Datos de salida | c). Para editar un curso deberá elegir los campos a editar. OK
+Datos de salida | d). Deberá pulsar el botón de Guardar Dato para que se produzcan los cambios. OK
+Datos de salida | e). Para borrar deberá elegir el curso y pulsar sobre el botón de Borrar. OK
+
+RF4 | Identificación del usuario registrado
+**Precondición** | Ser alumno, profesor o padre del centro  
+**Datos de entrada** | El usuario debe estar logeado en la aplicación
+**Datos de salida** | a). El usuario elige el día en el que crear el evento. OK    
+Datos de salida | b). Aparecerá un formulario que deberá rellenar con titulo, descripción y fecha. OK
+Datos de salida | c). Deberá pulsar el botón de Guardar para que se produzcan los cambios. OK
+Datos de salida | e). El evento se mostrará en el calendario. OK
+
+RF5 | Requisitos agenda
+**Precondición** | Haber iniciado sesión   
+**Datos de entrada** | El usuario debe estar logeado en la aplicación
+**Datos de salida** | a). El usuario debe ir a la opción del menu Agenda. OK    
+
+
+
 ## 7.2 Manual de Instalación   
 ## 7.3 Manual de Usuario   
 ## 7.4 Resultados obtenidos y conclusiones 
