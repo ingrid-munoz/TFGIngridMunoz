@@ -188,9 +188,68 @@ La metodologia elegida para este proyecto es la metodología tradicional.Se ha h
     <img width="800" src="https://user-images.githubusercontent.com/77245013/148611843-b8f7dbeb-a52c-4819-8404-4f0b1f7ddbfd.PNG" alt="Diagrama de Gantt">
 </p>   
 
-### 5.3 Presupuesto   
-### 5.4 Precio técnico y de venta   
-### 5.5 Análisis de riesgo   
+### 5.3 Planificación temporal de tareas   
+
+Dado el tiempo después de la jornada de FCT se estima una hora diaria de lunes a jueves, dos horas los viernes y de tres horas sábado y domingo.   
+
+Dias | Horas
+:----- | :--------    
+Lunes - Viernes |  6   
+Sábado - Domingo |  6   
+Semanal | 12   
+
+### 5.4 Presupuesto    
+
+Costes fijos mensuales | Precio € 
+:----- | :--------    
+Salario |  384€ (8€/hora)   
+Cuota de autónomos | 50€  
+Fibra y móvil | 36€
+Luz | 50€
+Material de oficina | 20€
+Total costes fijos/mes | 535€  
+
+Total de los costes en la finalización de los 3 meses: 1.605€
+
+Costes virtuales | Precio € 
+:----- | :--------    
+Dominio + Hosting |  65,45€   
+
+Total de los costes en la finalización de los 3 meses: 130.90€
+
+Coste Total |   Precio € 
+:----- | :--------    
+Costes Fijos |  1.605€   
+Costes Variables |  130.90€  
+Precio total sin IVA |  1.735,90€   
+Precio total con IVA | 2.100,44€   
+
+### 5.5 Precio técnico y de venta   
+
+Precio técnico |   Precio € 
+:----- | :--------    
+Calculo |  Coste total/unidad  
+Resultado | 1.735,90/1 = 1.735,90€   
+Precio técnico total sin IVA | 1.735,90€   
+Precio total con IVA | 2.100,44€   
+
+Precio Venta |   Precio € 
+:----- | :--------    
+Calculo |  Precio técnico X (1+margen))  
+Resultado | 1.735,90/1 = 1.735,90€   
+Precio venta total sin IVA | ??  
+Precio total con IVA | ??
+
+### 5.6 Análisis de riesgo   
+
+Riesgo | Medida | Nivel de peligrosidad
+:----- | :-------- | :----------
+Rotura de equipo | Tener otro equipo de emergencia y guardar todo en un disco externo | Grave    
+Perdida de información | Tener una copia de seguridad | Grave  
+Fallo en los requisitos | Realizar una reunión con el cliente para acordar los requisitos | Grave   
+Incompatibilidad de las librerías utilizadas | Utilizar las últimas versiones de las librerías | Moderado    
+Circunstancias personales | Tratar de recuperar las horasen algún momento | Leve   
+
     
 ## 6. Análisis y diseño de la base de datos    
 ### 6.1 Esquema Entidad-Relación    
@@ -256,8 +315,8 @@ CREATE TABLE `users` (
 ```
          
 ### 6.5 Diagrama de Clases   
-        
-ññ
+
+![diagrama_clase](https://user-images.githubusercontent.com/77245013/148624466-e1d76258-8c24-4a0f-860f-09c2bbffe251.PNG)
          
 ### 6.6 Diseño de interfaces   
 #### 6.6.1 Interfaz para usuario no registrado   
