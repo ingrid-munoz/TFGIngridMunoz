@@ -515,7 +515,15 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 
 # 8. Anexos    
 ## 8.1 Presupuesto    
+
+
+
+
+
 ## 8.2 Contrato    
+
+
+
 ## 8.3 Documento de pruebas funcionales        
 ## 8.4 Manual de usuario
   
