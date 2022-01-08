@@ -469,11 +469,49 @@ Se trabajará sobre la utlima versión de Ubuntu.
 > Laravel new NombreDelProyecto
 > curl -sS https://getcomposer.org/installer
 ```
+4º. Abrimos PhpStorm y seleccionamos el nuevo proyecto. Dentro iremos al archivo .env y añadimos:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=agenda
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+5º. Creamos los controladores y migraciones
+```
+php artisan make:model Nombre -mcr
+```
+6º. Una vez que tengamos todo configurado podemos acceder al servidor local escribiendo:
+```
+php artisan serve --host 0.0.0.0 &
+```
+7º. Escribimos en el navegador: localhost:8000    
 
 ## 7.3 Manual de Usuario   
-## 7.4 Resultados obtenidos y conclusiones 
-## 7.5 Agradecimientos
+## 7.4 Resultados obtenidos y conclusiones    
+La realización del Trabajo Fin de Ciclo (TFC) contribuye a demostrar las habilidades adquiridas a lo largo de estos dos años de formación en el Ciclo Superior en Desarrollo de Aplicaciones Web.   
+
+Este proyecto me ha servido para ver cómo se desarrolla una aplicación en el mundo laboral, y el buscar soluciones a problemas inesperados.   
+
+Este proyecto se basaba en una aplicación para crear eventos o actividades de un centro educativo. Cuando comencé con el proyecto no sabia muy bien como guiarlo y que necesitaba. Fuí añadiendo muchas opciones y me dí cuenta que estaba añadiendo cosas que no necesitaba.   
+
+Lo que mas me costó realizar fue la agenda y el CRUD de usuarios. Conseguí resolverlo y que me funcionará todo como queria. Me senti muy aliviada.   
+
+
+## 7.5 Agradecimientos    
+Estos 2 años han sido complicados debido a la Covid-19 tanto para profesores como para alumnos y por eso quiero agradecir a todos los profesores que tuve estos 2 años por el tiempo y esfuerzo dedicado en enseñarnos y prepararnos para el futuro.    
+
+Ademas, quiero agradecer a Adrian por escucharme y animarme cuando mas lo necesitaba y a mi compañero y mejor amigo Armando Gregorio Bizarro por todo sus consejos durante el proyecto.   
+
+De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré siempre.   
+
+
 ## 7.6 Webgrafía   
+- Creacion agenda: https://www.youtube.com/watch?v=iyHt8Ew-l6U&ab_channel=Develoteca  
+- Guia Markdown: https://www.youtube.com/watch?v=oxaH9CFpeEE&t=919s&ab_channel=FaztCode  
+- Guia Bootstrap: https://www.w3schools.com/bootstrap4/
+- Guia Laravel: https://laravel.com/docs/8.x  
 
 # 8. Anexos    
 ## 8.1 Presupuesto    
