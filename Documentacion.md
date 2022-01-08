@@ -45,25 +45,22 @@
     8.2 Contrato    
     8.3 Documento de pruebas funcionales        
     8.4 Manual de usuario   
-        
-       
-       
+             
 ---------------------------------------------------------------------------------------------------   
     
-
-## 1. Documento Descripcion del proyecto
-### 1.1 Ámbito y entorno
+# 1. Documento Descripcion del proyecto
+## 1.1 Ámbito y entorno
 Este proyecto está orientado a la creación de un web para un centro educativo, en el cual habra una agenda virtual para alumnos, profesores y padres en la cual podre crear actividades o eventos fuera y dentro del horario escolar.
 
-### 1.2 Análisis de la realidad
+## 1.2 Análisis de la realidad
 Actualmente, en la mayoría de las webs de centros educativos no disponen de un apartado para actividades extraescolares, ya sea para alumnos, profesorado o padres.
 
 El objetivo es desarrollar una aplicación web para la gestión de eventos del profesorado, padres del AMPA y del alumnado en un centro educativo. Son muchas las actividades y eventos que se realizan en un centro educativo (cenas empresa, charlas, jornadas, lotería, evaluaciones, cursos piee...) por ello se requiere una aplicación que permita su gestión centralizada.
 
-### 1.3 Solución y justificación de la solución 
+## 1.3 Solución y justificación de la solución 
 La aplicación permitirá dar de alta, baja, modificación de eventos dirigidos a 3 roles diferentes: alumnos, profesores y padres en un calendario. Permitirá añadir noticias sobre eventos. Permitirá inscribirse en el evento lo que conlleva el recibir avisos y notificaciones relacionados con ese evento. Como es obvio permitirá también el darse de baja del evento.
 
-### 1.4 Destinatarios
+## 1.4 Destinatarios
 Los usuarios destinatarios del proyecto serán todos los alumnos, profesores y padres del AMPA del centro educativo. Cada usuario tendrá su correspondiente nombre de usuario, contraseña y rol. El usuario deberá autenticarse para poder acceder a la aplicación.
 
 Los roles se definen a continuación:
@@ -72,7 +69,7 @@ Los roles se definen a continuación:
   - Rol de profesor, podrá acceder y crear una serie de actividades definidas por categorías específicas para este rol.
   - Rol de padre AMPA, este rol es exclusivo para padres inscritos en el AMPA. También podrá crear una serie de actividades por categorías ya definidas.
 
-## 2. Objetivo del proyecto
+# 2. Objetivo del proyecto
 El objetivo del proyecto es desarrollar una aplicación web que gestione las actividades y eventos de un centro educativo mediante un calendario. El usuario estará informado de las ultimas noticias referiras al centro.
 
 La aplicación está orientada a ser una extensión o agregación de una página web ya creada y estructurada.
@@ -87,12 +84,12 @@ Las actividades para realizar en el proyecto serán:
   4. Diseño y desarrollo de la aplicación web.
   5. Pruebas y despliegue de la aplicación.
 
-## 3. Objetivo del proyecto en ingles
+# 3. Objetivo del proyecto en ingles
 en ingles
 
 
-## 4. Requisitos funcionales y no funcionales
-### 4.1 Requisitos funcionales (RF)
+# 4. Requisitos funcionales y no funcionales
+## 4.1 Requisitos funcionales (RF)
 
 | RF1: Identificación del usuario administrador | Prioridad |
 | :------------ | :------------- |
@@ -115,7 +112,7 @@ RF4: Requisitos usuario NO registrado | Prioridad
 **RF4.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse          | Importnte
 **RF4.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda     | Importnte
 
-### 4.2 Requisitos no funcionales (RF)
+## 4.2 Requisitos no funcionales (RF)
 
 RNF1: Accesibilidad | Prioridad
 :------------ | :-------------
@@ -146,7 +143,7 @@ RNF7: Codificación UTF-8 | Prioridad
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
 
-### 4.3 Lista de tareas    
+## 4.3 Lista de tareas    
      
 Código |  Descrición |  Duración en horas      
 :----- | :-------- | :---------    
@@ -179,16 +176,16 @@ Código |  Descrición |  Duración en horas
 **T5.2** | Realizar pruebas completas de la aplicacion desplegada | 2    
 **Total de horas** |  | **81** 
      
-## 5. Planificación del proyecto    
-### 5.1 Metodologia de trabajo   
+# 5. Planificación del proyecto    
+## 5.1 Metodologia de trabajo   
 La metodologia elegida para este proyecto es la metodología tradicional.Se ha hecho énfasis en la planificación total de todo el trabajo a realizar y una vez que está todo detallado, comienza el ciclo de desarrollo del proyecto.     
    
-### 5.2 Diagrama de Gantt   
+## 5.2 Diagrama de Gantt   
 <p align="center">
     <img width="800" src="https://user-images.githubusercontent.com/77245013/148611843-b8f7dbeb-a52c-4819-8404-4f0b1f7ddbfd.PNG" alt="Diagrama de Gantt">
 </p>   
 
-### 5.3 Planificación temporal de tareas   
+## 5.3 Planificación temporal de tareas   
 
 Dado el tiempo después de la jornada de FCT se estima una hora diaria de lunes a jueves, dos horas los viernes y de tres horas sábado y domingo.   
 
@@ -198,7 +195,7 @@ Lunes - Viernes |  6
 Sábado - Domingo |  6   
 Semanal | 12   
 
-### 5.4 Presupuesto    
+## 5.4 Presupuesto    
 
 Costes fijos mensuales | Precio € 
 :----- | :--------    
@@ -224,7 +221,7 @@ Costes Variables |  130.90€
 Precio total sin IVA |  1.735,90€   
 Precio total con IVA | 2.100,44€   
 
-### 5.5 Precio técnico y de venta   
+## 5.5 Precio técnico y de venta   
 
 Precio técnico |   Precio € 
 :----- | :--------    
@@ -240,7 +237,7 @@ Resultado | 1.735,90/1 = 1.735,90€
 Precio venta total sin IVA | ??  
 Precio total con IVA | ??
 
-### 5.6 Análisis de riesgo   
+## 5.6 Análisis de riesgo   
 
 Riesgo | Medida | Nivel de peligrosidad
 :----- | :-------- | :----------
@@ -251,12 +248,12 @@ Incompatibilidad de las librerías utilizadas | Utilizar las últimas versiones 
 Circunstancias personales | Tratar de recuperar las horasen algún momento | Leve   
 
     
-## 6. Análisis y diseño de la base de datos    
-### 6.1 Esquema Entidad-Relación    
+# 6. Análisis y diseño de la base de datos    
+## 6.1 Esquema Entidad-Relación    
       
 ![diagrama_er](https://user-images.githubusercontent.com/77245013/148478960-abd12450-4d0e-4956-af54-383ac0b532fb.PNG)   
      
-### 6.2 Casos de Uso   
+## 6.2 Casos de Uso   
      
 ![diagrama_caso-uso](https://user-images.githubusercontent.com/77245013/148480302-34b00f7d-a14e-4ba9-aa23-bc438f2b4ebb.PNG)    
 
@@ -269,11 +266,11 @@ Circunstancias personales | Tratar de recuperar las horasen algún momento | Lev
 ![cu4](https://user-images.githubusercontent.com/77245013/148620024-f3c39d1a-d3e5-47a7-a449-4dc1c8ac467f.PNG)
 
        
-### 6.3 Esquema Relacional    
+## 6.3 Esquema Relacional    
         
 ![esquema_relacional](https://user-images.githubusercontent.com/77245013/148481786-6fa1d679-9049-4cf2-bf1b-d8866a167d65.PNG)    
                                            
-### 6.4 Script de la base de datos   
+## 6.4 Script de la base de datos   
         
 ```
 CREATE TABLE `cursos` (
@@ -314,12 +311,12 @@ CREATE TABLE `users` (
 
 ```
          
-### 6.5 Diagrama de Clases   
+## 6.5 Diagrama de Clases   
 
 ![diagrama_clase](https://user-images.githubusercontent.com/77245013/148624466-e1d76258-8c24-4a0f-860f-09c2bbffe251.PNG)
          
-### 6.6 Diseño de interfaces   
-#### 6.6.1 Interfaz para usuario no registrado   
+## 6.6 Diseño de interfaces   
+### 6.6.1 Interfaz para usuario no registrado   
 
 **Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
 <p align="center">
@@ -341,7 +338,7 @@ CREATE TABLE `users` (
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148485460-bc05cc10-2a45-495e-873b-6b61c5be2aef.PNG" alt="Iniciar Sesión">
 </p>    
 
-#### 6.6.2 Interfaz para usuario registrado Admin   
+### 6.6.2 Interfaz para usuario registrado Admin   
 
 **Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
 <p align="center">
@@ -363,20 +360,26 @@ CREATE TABLE `users` (
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148597273-30d47a04-6425-467f-944a-302148fba49b.PNG" alt="Gestión eventos de admin">
 </p> 
    
-#### 6.6.3 Interfaz para usuario registrado    
+### 6.6.3 Interfaz para usuario registrado    
 **Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148597863-b93a4b64-ceac-4442-8c2e-bcd433c61590.PNG" alt="Agenda usuario registrado">
 </p> 
     
        
-## 7. Implementación y pruebas    
-### 7.1 Pruebas Funcionales    
-### 7.2 Manual de Instalación   
-### 7.3 Manual de Usuario   
-### 7.4 Resultados obtenidos y conclusiones 
-### 7.5 Agradecimientos
-### 7.6 Webgrafía
+# 7. Implementación y pruebas    
+## 7.1 Pruebas Funcionales    
+## 7.2 Manual de Instalación   
+## 7.3 Manual de Usuario   
+## 7.4 Resultados obtenidos y conclusiones 
+## 7.5 Agradecimientos
+## 7.6 Webgrafía   
+
+# 8. Anexos    
+## 8.1 Presupuesto    
+## 8.2 Contrato    
+## 8.3 Documento de pruebas funcionales        
+## 8.4 Manual de usuario
   
 
 
