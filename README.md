@@ -8,3 +8,4 @@ Deberá acceder al siguiente enlace: https://github.com/ingrid-munoz/TFGIngridMu
 
 Para colaborar en el proyecto deberá solicitarlo y esperar a ser aceptado.
 
+La documentacion del proyecto se encuentra en la carpeta Docs.
