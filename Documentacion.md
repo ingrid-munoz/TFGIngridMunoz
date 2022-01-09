@@ -106,20 +106,33 @@ The access to the agenda will be only for students enrolled in the centre, teach
 <div id='id4' /> 
 
 # 4. Requisitos  
+
+<div id='id41' /> 
+
 ## 4.1 Requisitos de aplicación  
 Se trabajará con el entorno de PhpStorm, el framework de Laravel y el lenguaje de marcas HTML con Bootstrap. 
+
+<div id='id42' /> 
 
 ## 4.2 Requisitos de la interfaz   
 El cliente interactuara con la aplicación a través de las opciones del menu.  
 
+<div id='id421' /> 
+
 ### 4.2.1 Pantalla Inicio   
 Se mostrará información y descripción del centro.
+
+<div id='id422' /> 
 
 ### 4.2.2 Pantalla Secretaria   
 Se mostrará un formulario de contacto y ubicación del centro.
 
+<div id='id423' /> 
+
 ### 4.2.3 Pantalla Formación Profesional  
 Se mostrará una lista con todos los grados que imparte el centro.
+
+<div id='id424' /> 
 
 ### 4.2.4 Pantalla Usuarios  
 Se mostrará una lista con todos los usuarios registrados en el centro. Esta opción es solo para el administrador.
