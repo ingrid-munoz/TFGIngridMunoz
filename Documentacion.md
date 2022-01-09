@@ -530,10 +530,51 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 ![c4](https://user-images.githubusercontent.com/77245013/148663282-f8ecc7f4-8a17-43db-bc3b-fe3dfa209d1c.PNG)
 ![c5](https://user-images.githubusercontent.com/77245013/148663283-d1c693df-17d5-47a9-80c0-4e22b4e85462.PNG)
 
-## 8.3 Documento de pruebas funcionales        
+## 8.3 Documento de pruebas funcionales    
 
-  
+## Usuario no registrado
+ 
+### Inicio  
+Aquí se dara la bienvenida a la web del centro. Tambien se muestra las opciones de Inicio, Secretaria, Cursos e Iniciar sesión.
+FALTA CALTURA
 
+### Secretaria
+Aquí encontraremos el horario y telefono de contacto del centro. Ademas, dispone de un formulario de contacto y un mapa con la ubicación. Tambien se muestra las opciones de Inicio, Secretaria, Cursos e Iniciar sesión.    
+![secretaria](https://user-images.githubusercontent.com/77245013/148670587-c4978774-a937-4204-b830-fc14907f4be0.jpeg)   
+
+### Cursos  
+Aquí encontraremos el listado de todos los cursos que imparte el centro. Tambien se muestra las opciones de Inicio, Secretaria, Cursos e Iniciar sesión.      
+![cursos](https://user-images.githubusercontent.com/77245013/148670641-3913295b-65db-412e-a33e-fffd80857177.jpeg)   
+
+### Iniciar sesión    
+Aqui el usuario podra iniciar sesión. Tambien se muestra las opciones de Inicio, Secretaria, Cursos e Iniciar sesión.          
+![iniciar_sesion](https://user-images.githubusercontent.com/77245013/148670659-6235ebd3-4273-4284-b63e-b34c1c808dc4.jpeg)
+
+## Usuario registrado
+
+### Agenda
+Este usuario podrá ver todo lo anterior, ademas se añade al menu la opción Agenda.
+![agenda_user](https://user-images.githubusercontent.com/77245013/148670861-7ce9a3f1-f8fc-4c4c-bc29-69f4d62cf74c.jpeg)
+
+##  Usuario Administrador
+
+### Usuarios
+Aqui, se listan todos los usuarios del centro. El administrador podrá crear, editar o borrar un usuario.
+![usuarios](https://user-images.githubusercontent.com/77245013/148671149-398a6072-f3a8-4114-b542-03e9024b2665.jpeg)
+
+### Formulario de registro de usuarios
+![register](https://user-images.githubusercontent.com/77245013/148671180-79032ca4-325f-4ada-9c05-41d911cb2f71.jpeg)
+
+### Cursos 
+Aqui, se listan todos los cursos que imparte el centro. El administrador podrá crear, editar o borrar un curso.
+![cursos_admin](https://user-images.githubusercontent.com/77245013/148671262-b3eb2fc0-38fd-4f28-8287-7d7cc5b53659.jpeg)
+
+### Formulario creación de cursos
+![cursos_registro](https://user-images.githubusercontent.com/77245013/148671292-03c39955-9447-44f1-bdc0-1e195ceaf85f.jpeg)
+
+### Agenda
+Aqui, el administrador podra crear, modificar y eliminar eventos.
+![agenda_admin](https://user-images.githubusercontent.com/77245013/148671333-7ec1124c-12b5-4696-9a0d-5fe458ff09e2.jpeg)
 
 
 
