@@ -83,13 +83,6 @@ La aplicación está orientada a ser una extensión o agregación de una página
 
 El acceso a la agenda sera solamente para alumnos matriculados en el centro, profesores del centro y padres inscritos en el AMPA. 
 
-Las actividades para realizar en el proyecto serán:
-
-  1. Análisis de las necesidades y requerimientos del proyecto.
-  2. Seguimiento del tiempo empleado para realizar cada actividad mediante un diagrama de Gantt.
-  3. Diseño y creación de la base de datos.
-  4. Diseño y desarrollo de la aplicación web.
-  5. Pruebas y despliegue de la aplicación.
 
 # 3. Objetivo del proyecto en ingles
 en ingles
