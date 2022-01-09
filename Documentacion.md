@@ -89,8 +89,11 @@ El acceso a la agenda sera solamente para alumnos matriculados en el centro, pro
 <div id='id3' /> 
 
 # 3. Objetivo del proyecto en ingles
-en ingles
+The objective of the project is to develop a web application that manages the activities and events of an educational centre by means of a calendar. The user will be informed of the latest news concerning the centre.
 
+The application is oriented to be an extension or aggregation of an already created and structured web page.
+
+The access to the agenda will be only for students enrolled in the centre, teachers of the centre and parents registered in the AMPA. 
 
 <div id='id4' /> 
 
@@ -261,10 +264,10 @@ Precio total con IVA | 2.100,44€
 
 Precio Venta |   Precio € 
 :----- | :--------    
-Calculo |  Precio técnico X (1+margen))  
-Resultado | 1.735,90/1 = 1.735,90€   
-Precio venta total sin IVA | ??  
-Precio total con IVA | ??
+Calculo |  Precio técnico X 1 +(margen 0.85))  
+Resultado | 1.735,90 X (1 + 0.85) = 3.211.41€   
+Precio venta total sin IVA | 3.211.41€  
+Precio total con IVA | 3.885.80€
 
 ## 5.6 Análisis de riesgo   
 
