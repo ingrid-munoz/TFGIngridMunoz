@@ -21,7 +21,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; 4.2.3 [Pantalla Formación Profesional](#id423)     
 &nbsp;&nbsp;&nbsp;&nbsp; 4.2.4 [Pantalla Usuarios](#id424)     
 &nbsp;&nbsp;&nbsp;&nbsp; 4.2.5 [Pantalla Agenda](#id425)         
-    4.3 [Requisitos funcionales (RF)](#id43) 
+    4.3 [Requisitos funcionales (RF)](#id43)     
     4.4 [Requisitos no funcionales (RNF)](#id44)     
     4.5 [Lista de tareas](#id45)     
     
@@ -137,8 +137,12 @@ Se mostrará una lista con todos los grados que imparte el centro.
 ### 4.2.4 Pantalla Usuarios  
 Se mostrará una lista con todos los usuarios registrados en el centro. Esta opción es solo para el administrador.
 
+<div id='id425' /> 
+
 ### 4.2.5 Pantalla Agenda  
 Se mostrará un calendario donde el usuario deberá elegir la fecha en la que crear el evento. Esta opción solo se mostrará para los usuarios logeados.
+
+<div id='id43' /> 
 
 ## 4.3 Requisitos funcionales (RF)
 
@@ -162,6 +166,8 @@ RF4: Requisitos usuario NO registrado | Prioridad
 **RF4.1** El usuario sola podra ver las paginas de Inicio, Secretaria, Cursos y Login                               | Importante
 **RF4.2** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra logearse          | Importnte
 **RF4.3** El usuario que NO sea alumno matriculado, profesor del centro o padre del AMPA no podra ver la agenda     | Importnte
+
+<div id='id44' /> 
 
 ## 4.4 Requisitos no funcionales (RF)
 
@@ -193,6 +199,7 @@ RNF7: Codificación UTF-8 | Prioridad
 :------------ | :-------------
 **RNF7.1** la aplicación estará codificada en UTF-8 para poder representar cualquier carácter UNICODE | Esencial
 
+<div id='id45' /> 
 
 ## 4.5 Lista de tareas    
      
@@ -229,14 +236,21 @@ Código |  Descrición |  Duración en horas
      
 <div id='id5' /> 
 
-# 5. Planificación del proyecto    
+# 5. Planificación del proyecto   
+
+<div id='id51' /> 
+
 ## 5.1 Metodologia de trabajo   
 La metodologia elegida para este proyecto es la metodología tradicional.Se ha hecho énfasis en la planificación total de todo el trabajo a realizar y una vez que está todo detallado, comienza el ciclo de desarrollo del proyecto.     
+   
+<div id='id52' />    
    
 ## 5.2 Diagrama de Gantt   
 <p align="center">
     <img width="800" src="https://user-images.githubusercontent.com/77245013/148611843-b8f7dbeb-a52c-4819-8404-4f0b1f7ddbfd.PNG" alt="Diagrama de Gantt">
 </p>   
+
+<div id='id53' /> 
 
 ## 5.3 Planificación temporal de tareas   
 
@@ -247,6 +261,8 @@ Dias | Horas
 Lunes - Viernes |  6   
 Sábado - Domingo |  6   
 Semanal | 12   
+
+<div id='id54' /> 
 
 ## 5.4 Presupuesto    
 
@@ -274,6 +290,8 @@ Costes Variables |  130.90€
 Precio total sin IVA |  1.735,90€   
 Precio total con IVA | 2.100,44€   
 
+<div id='id55' /> 
+
 ## 5.5 Precio técnico y de venta   
 
 Precio técnico |   Precio € 
@@ -290,6 +308,8 @@ Resultado | 1.735,90 X (1 + 0.85) = 3.211.41€
 Precio venta total sin IVA | 3.211.41€  
 Precio total con IVA | 3.885.80€
 
+<div id='id56' /> 
+
 ## 5.6 Análisis de riesgo   
 
 Riesgo | Medida | Nivel de peligrosidad
@@ -303,9 +323,14 @@ Circunstancias personales | Tratar de recuperar las horasen algún momento | Lev
 <div id='id6' /> 
     
 # 6. Análisis y diseño de la base de datos    
+
+<div id='id61' /> 
+
 ## 6.1 Esquema Entidad-Relación    
       
 ![diagrama_er](https://user-images.githubusercontent.com/77245013/148478960-abd12450-4d0e-4956-af54-383ac0b532fb.PNG)   
+     
+<div id='id62' />      
      
 ## 6.2 Casos de Uso   
      
@@ -319,11 +344,15 @@ Circunstancias personales | Tratar de recuperar las horasen algún momento | Lev
 
 ![cu4](https://user-images.githubusercontent.com/77245013/148620024-f3c39d1a-d3e5-47a7-a449-4dc1c8ac467f.PNG)
 
-       
+ 
+<div id='id63' />  
+ 
 ## 6.3 Esquema Relacional    
         
 ![esquema_relacional](https://user-images.githubusercontent.com/77245013/148481786-6fa1d679-9049-4cf2-bf1b-d8866a167d65.PNG)    
-                                           
+
+<div id='id64' /> 
+
 ## 6.4 Script de la base de datos   
         
 ```
@@ -364,12 +393,19 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 ```
-         
+
+<div id='id65' /> 
+
 ## 6.5 Diagrama de Clases   
 
 ![diagrama_clase](https://user-images.githubusercontent.com/77245013/148624466-e1d76258-8c24-4a0f-860f-09c2bbffe251.PNG)
          
+<div id='id66' />          
+         
 ## 6.6 Diseño de interfaces   
+
+<div id='id661' /> 
+
 ### 6.6.1 Interfaz para usuario no registrado   
 
 **Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
@@ -391,6 +427,8 @@ CREATE TABLE `users` (
 <p align="center">
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148485460-bc05cc10-2a45-495e-873b-6b61c5be2aef.PNG" alt="Iniciar Sesión">
 </p>    
+
+<div id='id662' /> 
 
 ### 6.6.2 Interfaz para usuario registrado Admin   
 
@@ -414,6 +452,8 @@ CREATE TABLE `users` (
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148597273-30d47a04-6425-467f-944a-302148fba49b.PNG" alt="Gestión eventos de admin">
 </p> 
    
+<div id='id663' />    
+   
 ### 6.6.3 Interfaz para usuario registrado    
 **Inicio** mostrara el logo e información del centro. Tambien se mostraran los botones de redes sociales.      
 <p align="center">
@@ -423,6 +463,9 @@ CREATE TABLE `users` (
 <div id='id7' /> 
 
 # 7. Implementación y pruebas    
+
+<div id='id71' /> 
+
 ## 7.1 Pruebas Funcionales    
 
 RF1 | El administrador podrá crear, editar y borrar usuarios
@@ -470,6 +513,8 @@ RF5 | Requisitos agenda
 **Datos de entrada** | El usuario debe estar logeado en la aplicación
 **Datos de salida** | a). El usuario debe ir a la opción del menu Agenda. OK    
 
+<div id='id72' /> 
+
 ## 7.2 Manual de Instalación   
 La aplicación se encuentra actualmente en desarrollo. Para el despliegue en local se ha utilizado Docker.    
 El repositorio de este proyecto se encuentra en GitHub: https://github.com/ingrid-munoz/Proyecto   
@@ -514,6 +559,8 @@ php artisan make:model Nombre -mcr
 php artisan serve --host 0.0.0.0 &
 ```
 7º. Escribimos en el navegador: localhost:8000    
+
+<div id='id73' /> 
 
 ## 7.3 Manual de Usuario   
 
@@ -561,7 +608,7 @@ Aqui, se listan todos los usuarios del centro. El administrador podrá crear, ed
 Aqui, el administrador podra crear, modificar y eliminar eventos.
 ![agenda-admin](https://user-images.githubusercontent.com/77245013/148698553-8ac76415-6df2-4df8-bc7a-c75ee158941b.jpeg)
 
-
+<div id='id74' /> 
 
 ## 7.4 Resultados obtenidos y conclusiones    
 La realización del Trabajo Fin de Ciclo (TFC) contribuye a demostrar las habilidades adquiridas a lo largo de estos dos años de formación en el Ciclo Superior en Desarrollo de Aplicaciones Web.   
@@ -572,6 +619,7 @@ Este proyecto se basaba en una aplicación para crear eventos o actividades de u
 
 Lo que mas me costó realizar fue la agenda y el CRUD de usuarios. Conseguí resolverlo y que me funcionará todo como queria. Me senti muy aliviada.   
 
+<div id='id75' /> 
 
 ## 7.5 Agradecimientos    
 Estos 2 años han sido complicados debido a la Covid-19 tanto para profesores como para alumnos y por eso quiero agradecir a todos los profesores que tuve estos 2 años por el tiempo y esfuerzo dedicado en enseñarnos y prepararnos para el futuro.    
@@ -580,6 +628,7 @@ Ademas, quiero agradecer a Adrian por escucharme y animarme cuando mas lo necesi
 
 De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré siempre.   
 
+<div id='id76' /> 
 
 ## 7.6 Webgrafía   
 - Creacion agenda: https://www.youtube.com/watch?v=iyHt8Ew-l6U&ab_channel=Develoteca  
@@ -590,12 +639,16 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 <div id='id8' /> 
 
 # 8. Anexos    
+
+<div id='id81' /> 
+
 ## 8.1 Presupuesto    
 ![presupuesto_pt1](https://user-images.githubusercontent.com/77245013/148697958-3f604824-7493-4dd4-87b4-c71bfbb358fd.PNG)
 ![presupuesto_pt2](https://user-images.githubusercontent.com/77245013/148697960-79dad5bb-8dd6-442a-9ab6-b9f31afe53b5.PNG)
 
 [presupuesto.pdf](https://github.com/ingrid-munoz/Proyecto/files/7835771/presupuesto.pdf)
 
+<div id='id82' /> 
 
 ## 8.2 Contrato    
 
@@ -604,6 +657,8 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 ![c3](https://user-images.githubusercontent.com/77245013/148663279-12240570-d5e4-4fcf-9566-5938fcdf1842.PNG)
 ![c4](https://user-images.githubusercontent.com/77245013/148663282-f8ecc7f4-8a17-43db-bc3b-fe3dfa209d1c.PNG)
 ![c5](https://user-images.githubusercontent.com/77245013/148663283-d1c693df-17d5-47a9-80c0-4e22b4e85462.PNG)
+
+<div id='id83' /> 
 
 ## 8.3 Documento de pruebas funcionales    
 
