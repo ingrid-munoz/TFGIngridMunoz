@@ -496,6 +496,49 @@ php artisan serve --host 0.0.0.0 &
 
 ## 7.3 Manual de Usuario   
 
+## Usuario no registrado
+ 
+### Inicio  
+Aquí se dara la bienvenida a la web del centro. Tambien se muestra las opciones de Inicio, Secretaria, Cursos e Iniciar sesión.    
+![inico](https://user-images.githubusercontent.com/77245013/148698095-8f6af958-06b9-4f39-b3ae-075729116d03.jpeg)
+
+### Secretaria
+Aquí encontraremos el horario y telefono de contacto del centro. Ademaá, dispone de un formulario de contacto y un mapa con la ubicación.     
+![secretaria](https://user-images.githubusercontent.com/77245013/148698174-8c173e95-34b0-4713-96d2-7463c77c0a6a.jpeg)
+
+### Cursos  
+Aquí encontraremos el listado de todos los cursos que imparte el centro.
+![cursos](https://user-images.githubusercontent.com/77245013/148698178-d92699fe-a7c0-475b-b701-80b4ad731b12.jpeg)
+
+### Iniciar sesión    
+Aqui el usuario podra iniciar sesión.     
+![iniciar_sesion](https://user-images.githubusercontent.com/77245013/148698183-4f9f6434-847c-4052-880c-1c3299e0664e.jpeg)
+
+## Usuario registrado
+
+### Agenda
+El usuario podrá ver todo lo anterior, ademas se añade al menu la opción Agenda. Para crear un nuevo evento debera seleccionar el día y rellenar los datos del formulario.
+![agenda-ur](https://user-images.githubusercontent.com/77245013/148698220-754213de-c313-4b3e-85af-566e032a610d.jpeg)
+
+##  Usuario Administrador
+
+### Cursos 
+Aqui, se listan todos los cursos que imparte el centro. El administrador podrá crear, editar o borrar un curso.
+![curso-admin](https://user-images.githubusercontent.com/77245013/148698445-8ee8e5d0-fa08-4809-ad5d-b11965b1cf5b.jpeg)
+
+### Formulario para crear un nuevo curso
+![curso-register-admin](https://user-images.githubusercontent.com/77245013/148698419-61fa6778-8b55-4e18-9ae0-55aaaaebb1e9.jpeg)
+
+### Usuarios
+Aqui, se listan todos los usuarios del centro. El administrador podrá crear, editar o borrar un usuario.
+![user-admin](https://user-images.githubusercontent.com/77245013/148698538-72923e98-6ac7-4fe8-a036-83c0cf26b26d.jpeg)
+
+### Formulario de registro de usuarios
+![user-register-admin](https://user-images.githubusercontent.com/77245013/148698545-63fb83f0-acf5-4c85-bc79-00c84865f1bb.jpeg)
+
+### Agenda
+Aqui, el administrador podra crear, modificar y eliminar eventos.
+![agenda-admin](https://user-images.githubusercontent.com/77245013/148698553-8ac76415-6df2-4df8-bc7a-c75ee158941b.jpeg)
 
 
 
@@ -546,26 +589,16 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 ## Usuario no registrado
  
 ### Inicio  
-Aquí se dara la bienvenida a la web del centro. Tambien se muestra las opciones de Inicio, Secretaria, Cursos e Iniciar sesión.    
+El usuario no registrado no podrá ver la opción de agenda en el menu.   
 ![inico](https://user-images.githubusercontent.com/77245013/148698095-8f6af958-06b9-4f39-b3ae-075729116d03.jpeg)
-
-### Secretaria
-Aquí encontraremos el horario y telefono de contacto del centro. Ademaá, dispone de un formulario de contacto y un mapa con la ubicación.     
-![secretaria](https://user-images.githubusercontent.com/77245013/148698174-8c173e95-34b0-4713-96d2-7463c77c0a6a.jpeg)
-
-### Cursos  
-Aquí encontraremos el listado de todos los cursos que imparte el centro.
-![cursos](https://user-images.githubusercontent.com/77245013/148698178-d92699fe-a7c0-475b-b701-80b4ad731b12.jpeg)
-
-### Iniciar sesión    
-Aqui el usuario podra iniciar sesión.     
-![iniciar_sesion](https://user-images.githubusercontent.com/77245013/148698183-4f9f6434-847c-4052-880c-1c3299e0664e.jpeg)
 
 ## Usuario registrado
 
 ### Agenda
-El usuario podrá ver todo lo anterior, ademas se añade al menu la opción Agenda. Para crear un nuevo evento debera seleccionar el día y rellenar los datos del formulario.
+El usuario registrado podrá crear un nuevo evento.
 ![agenda-ur](https://user-images.githubusercontent.com/77245013/148698220-754213de-c313-4b3e-85af-566e032a610d.jpeg)
+Comprobamos en la base de datos que se ha creado:
+![evento-usuario](https://user-images.githubusercontent.com/77245013/148699011-60a81093-4bd7-4351-9961-10b447c56c35.PNG)
 
 ##  Usuario Administrador
 
@@ -573,20 +606,37 @@ El usuario podrá ver todo lo anterior, ademas se añade al menu la opción Agen
 Aqui, se listan todos los cursos que imparte el centro. El administrador podrá crear, editar o borrar un curso.
 ![curso-admin](https://user-images.githubusercontent.com/77245013/148698445-8ee8e5d0-fa08-4809-ad5d-b11965b1cf5b.jpeg)
 
-### Formulario para crear un nuevo curso
+Opción Editar curso:
+![edit-curso-ad](https://user-images.githubusercontent.com/77245013/148699345-4e85b754-9110-40ed-8793-9e7b34a74a78.jpeg)
+
+Opción Borrar curso:
+![delete-curso-ad](https://user-images.githubusercontent.com/77245013/148699379-fb6c3b24-2fc2-47c2-8cd2-794c7248dfc8.PNG)
+
+Formulario para crear un nuevo curso:
 ![curso-register-admin](https://user-images.githubusercontent.com/77245013/148698419-61fa6778-8b55-4e18-9ae0-55aaaaebb1e9.jpeg)
+
+Comprobamos en la base de datos:
+![curso-bd](https://user-images.githubusercontent.com/77245013/148699060-51ae4ab2-14ff-4690-9cb8-4db9ccaf129f.PNG)
 
 ### Usuarios
 Aqui, se listan todos los usuarios del centro. El administrador podrá crear, editar o borrar un usuario.
 ![user-admin](https://user-images.githubusercontent.com/77245013/148698538-72923e98-6ac7-4fe8-a036-83c0cf26b26d.jpeg)
 
-### Formulario de registro de usuarios
+Opción Borrar usuario:
+![delete-user-ad](https://user-images.githubusercontent.com/77245013/148699428-317848e6-abef-4c78-b700-87bef7c3962c.PNG)
+
+Formulario de registro de usuarios:
 ![user-register-admin](https://user-images.githubusercontent.com/77245013/148698545-63fb83f0-acf5-4c85-bc79-00c84865f1bb.jpeg)
+
+Comprobamos en la base de datos:
+![user-bd](https://user-images.githubusercontent.com/77245013/148699126-4ca5ffcd-ec03-402d-aee3-b9dc9e8d150b.PNG)
 
 ### Agenda
 Aqui, el administrador podra crear, modificar y eliminar eventos.
 ![agenda-admin](https://user-images.githubusercontent.com/77245013/148698553-8ac76415-6df2-4df8-bc7a-c75ee158941b.jpeg)
 
+Comprobamos en la base de datos:
+![evento-bd](https://user-images.githubusercontent.com/77245013/148699167-fb0fe094-d55c-4b99-b763-511d5471bd80.PNG)
 
 
 
