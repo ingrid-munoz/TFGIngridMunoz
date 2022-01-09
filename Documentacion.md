@@ -1,7 +1,6 @@
 # Agenda Escolar
 
-![Logo agenda](https://user-images.githubusercontent.com/77245013/148461952-68bf2a81-cabd-4bfa-bf18-04dd9b15e1b1.png)
-
+![proyecto_encabezado_2](https://user-images.githubusercontent.com/77245013/148672669-fe5cf4bc-c22c-467e-b327-752ac241a84e.png)
 
 # ÍNDICE
 1. [Documento Descripcion del proyecto](#id1)   
