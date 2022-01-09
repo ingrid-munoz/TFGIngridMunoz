@@ -4,17 +4,17 @@
 
 
 # ÍNDICE
-1. Documento Descripcion del proyecto   
+1. [Documento Descripcion del proyecto](#id1)   
     1.1 Ámbito y entorno    
     1.2 Análisis de la realidad    
     1.3 Solución y justificación de la solución    
     1.4 Destinatarios    
      
-2. Objetivo del proyecto   
+2. [Objetivo del proyecto](#id2)    
      
-3. Objetivo del proyecto en lengua extranjera    
+3. [Objetivo del proyecto en lengua extranjera](#id3)     
     
-4. Requisitos     
+4. [Requisitos](#id4)      
     4.1 Requisitos de aplicación   
     4.2 Requisitos de la interfaz   
 &nbsp;&nbsp;&nbsp;&nbsp; 4.2.1 Pantalla Inicio    
@@ -26,36 +26,38 @@
     4.4 Requisitos no funcionales (RNF)    
     4.5 Lista de tareas    
     
-5. Planificación del proyecto       
+5. [Planificación del proyecto](#id5)        
     5.1 Metodologia de trabajo    
     5.2 Diagrama de Gantt    
     5.3 Presupuesto    
     5.4 Precio técnico y de venta    
     5.5 Análisis de Riesgo    
     
-6. Análisis y diseño de la base de datos   
+6. [Análisis y diseño de la base de datos](#id6)    
     6.1 Esquema Entidad-Relación    
     6.2 Casos de Uso    
     6.3 Esquema Relacional    
     6.4 Script de la base de datos   
     6.5 Diagrama de Clases   
 
-7. Implementación y pruebas    
+7. [Implementación y pruebas](#id7)     
     7.1 Pruebas Funcionales    
     7.2 Manual de Instalación    
     7.3 Manual de Usuario    
     7.4 Resultados obtenidos y conclusiones    
     7.5 Agradecimientos    
     
-8. Anexos    
+8. [Anexos](#id8)     
     8.1 Presupuesto    
     8.2 Contrato    
     8.3 Documento de pruebas funcionales        
     8.4 Manual de usuario   
              
 ---------------------------------------------------------------------------------------------------   
-    
-# 1. Documento Descripcion del proyecto
+<div id='id1' />    
+
+# 1. Documento Descripcion del proyecto  
+
 ## 1.1 Ámbito y entorno
 Este proyecto está orientado a la creación de un web para un centro educativo, en el cual habra una agenda virtual para alumnos, profesores y padres en la cual podre crear actividades o eventos fuera y dentro del horario escolar.
 
@@ -76,6 +78,8 @@ Los roles se definen a continuación:
   - Rol de profesor, podrá acceder y crear una serie de actividades definidas por categorías específicas para este rol.
   - Rol de padre AMPA, este rol es exclusivo para padres inscritos en el AMPA. También podrá crear una serie de actividades por categorías ya definidas.
 
+<div id='id2' /> 
+
 # 2. Objetivo del proyecto
 El objetivo del proyecto es desarrollar una aplicación web que gestione las actividades y eventos de un centro educativo mediante un calendario. El usuario estará informado de las ultimas noticias referiras al centro.
 
@@ -83,10 +87,13 @@ La aplicación está orientada a ser una extensión o agregación de una página
 
 El acceso a la agenda sera solamente para alumnos matriculados en el centro, profesores del centro y padres inscritos en el AMPA. 
 
+<div id='id3' /> 
 
 # 3. Objetivo del proyecto en ingles
 en ingles
 
+
+<div id='id4' /> 
 
 # 4. Requisitos  
 ## 4.1 Requisitos de aplicación  
@@ -197,6 +204,8 @@ Código |  Descrición |  Duración en horas
 **T5.2** | Realizar pruebas completas de la aplicacion desplegada | 2    
 **Total de horas** |  | **81** 
      
+<div id='id5' /> 
+
 # 5. Planificación del proyecto    
 ## 5.1 Metodologia de trabajo   
 La metodologia elegida para este proyecto es la metodología tradicional.Se ha hecho énfasis en la planificación total de todo el trabajo a realizar y una vez que está todo detallado, comienza el ciclo de desarrollo del proyecto.     
@@ -268,6 +277,7 @@ Fallo en los requisitos | Realizar una reunión con el cliente para acordar los 
 Incompatibilidad de las librerías utilizadas | Utilizar las últimas versiones de las librerías | Moderado    
 Circunstancias personales | Tratar de recuperar las horasen algún momento | Leve   
 
+<div id='id6' /> 
     
 # 6. Análisis y diseño de la base de datos    
 ## 6.1 Esquema Entidad-Relación    
@@ -387,7 +397,8 @@ CREATE TABLE `users` (
     <img width="600" src="https://user-images.githubusercontent.com/77245013/148597863-b93a4b64-ceac-4442-8c2e-bcd433c61590.PNG" alt="Agenda usuario registrado">
 </p> 
     
-       
+<div id='id7' /> 
+
 # 7. Implementación y pruebas    
 ## 7.1 Pruebas Funcionales    
 
@@ -509,6 +520,8 @@ De estos 2 años me llevo muchos recuerdos bonitos y graciosos que recordaré si
 - Guia Markdown: https://www.youtube.com/watch?v=oxaH9CFpeEE&t=919s&ab_channel=FaztCode  
 - Guia Bootstrap: https://www.w3schools.com/bootstrap4/
 - Guia Laravel: https://laravel.com/docs/8.x  
+
+<div id='id8' /> 
 
 # 8. Anexos    
 ## 8.1 Presupuesto    
