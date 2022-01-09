@@ -2,8 +2,6 @@
 
 @section('content')
 
-    <h3>{{$modo}} usuario</h3>
-
     <label for="id">ID</label>
     <input type="text" name="id" value="{{isset($usuario->id) ? $usuario->id:''}}" id="id">
 
@@ -41,7 +39,7 @@
 
     <input type="submit" value="{{$modo}} datos">
 
-    <a href="{{url('usuario/')}}">Volver a la lista de usuarios</a>
+    <a href="{{url('user/')}}">Volver a la lista de usuarios</a>
     <br>
 
 @endsection

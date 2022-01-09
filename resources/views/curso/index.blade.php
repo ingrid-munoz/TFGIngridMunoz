@@ -5,8 +5,10 @@
         {{ Session::get('mensaje') }}
     @endif
 
+    <br>
+
     @if(auth()->check() and auth()->user()->tipo_usuario==='admin')
-    <a href="{{route('curso.create')}}">Crear nuevo usuario</a>
+    <a href="{{route('curso.create')}}">Crear nuevo curso</a>
     @endif
 
 <table class="table table-light">

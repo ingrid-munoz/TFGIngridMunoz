@@ -51,6 +51,12 @@
                 <a class="nav-link" href="{{route('curso.index')}}">Cursos</a>
             </li>
 
+            @if(auth()->check() and auth()->user()->tipo_usuario==='admin')
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('user.index')}}">Usuarios</a>
+                </li>
+            @endif
+
             @if(auth()->guest())
 
             <li class="nav-item">
@@ -58,10 +64,6 @@
             </li>
 
             @else
-
-            <li class="nav-item">
-                 <a class="nav-link" href="{{route('user.index')}}">Usuarios</a>
-            </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="{{route('evento')}}">Agenda</a>
@@ -82,9 +84,9 @@
 <!-- Agenda -->
 <script src="{{ asset('js/agenda.js') }}" defer></script>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+<div>
+    @yield('content')
+</div>
 
 
 <footer class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -97,6 +99,9 @@
     <a class="btn btn-primary" style="background-color: #3b5998;" href="http://facebook.com" role="button">
         <i class="fa fa-facebook me-2"></i>Facebook
     </a>
+
+    <br><br>
+
     </div>
 </footer>
 

@@ -24,7 +24,7 @@
                                 @enderror
                             </div>
                         </div>
-
+                        
                         <div class="row mb-3">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 

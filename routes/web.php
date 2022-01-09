@@ -82,7 +82,7 @@ Route::post('/evento/borrar/{id}', [App\Http\Controllers\EventoController::class
 // CRUD USUARIO
 //Route::get('/user', function () {
 //    return view('user.index');
-//});
+//);
 // Acceso metodo create
 //Route::get('usuario/create',[UsuarioController::class,'create']); -> PROBAR A QUITAR LAS // Y VER SI ME FUNCIONA CREATE DE USUARIOS
 // Acceso a todos los metodos
@@ -91,6 +91,12 @@ Route::resource('user',UserController::class)->middleware("auth");
 
 // ADMIN
 Route::get('/admin', [AdminController::class, 'index'])->middleware('auth.admin')->name('admin.index');
+
+// Accede al metodo index donde se mostrara la vista
+Route::post('/user/register/{id}', [App\Http\Controllers\UserController::class, 'edit']);
+Route::post('/evento/actualizar/{evento}', [App\Http\Controllers\EventoController::class, 'update']);
+Route::post('/evento/borrar/{id}', [App\Http\Controllers\EventoController::class, 'destroy']);
+
 
 
 //-------------------------------------------------------------------

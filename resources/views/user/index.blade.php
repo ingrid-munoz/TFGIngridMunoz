@@ -43,13 +43,13 @@
 
 
         <td>
-            <a href="{{url('/usuario/'.$usuario->id.'/edit')}}">
+            <a href="{{url('register/'.$usuario->id)}}">
                 Editar
             </a>
 
              |
 
-            <form action="{{url('/usuario/'.$usuario->id)}}" method="post">
+            <form action="{{url('/user/'.$usuario->id)}}" method="post">
             @csrf
             {{method_field('DELETE')}}
             <input type="submit" onclick="return confirm('¿Quieres borrar?')" value="Borrar">

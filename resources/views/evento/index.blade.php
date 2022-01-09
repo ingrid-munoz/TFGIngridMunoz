@@ -27,13 +27,13 @@
                         <div class="form-group d-none">
                             <label for="id">ID:</label>
                             <input type="text" class="form-control" name="id" id="id" aria-describedby="helpId" placeholder="id">
-                            <small id="helpId" class="form-text text-muted">ffff</small>
+                            <small id="helpId" class="form-text text-muted"></small>
                         </div>
 
                         <div class="form-group">
                             <label for="title">Titulo</label>
                             <input type="text" class="form-control" name="title" id="title" aria-describedby="helpId" placeholder="Titulo del evento">
-                            <small id="helpId" class="form-text text-muted">esto q es??</small>
+                            <small id="helpId" class="form-text text-muted">Escribe el titulo de la actividad</small>
                         </div>
 
                         <div class="form-group">
@@ -46,7 +46,7 @@
                         <div class="form-group">
                             <label for="start">Fecha inicio</label>
                             <input type="date" class="form-control" name="start" id="start" aria-describedby="helpId" placeholder="start">
-                            <small id="helpId" class="form-text text-muted">gggg</small>
+                            <small id="helpId" class="form-text text-muted">Selecciona en el calendario la fecha</small>
                         </div>
 
                     </form>

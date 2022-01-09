@@ -10,7 +10,7 @@ class UserController extends Controller
     public function index()
     {
         //Muestra los 5 primeros registros
-        $datos['usuarios']=User::paginate(5);
+        $datos['usuarios']=User::paginate(10);
         return view('user.index',$datos);
     }
 
@@ -22,7 +22,7 @@ class UserController extends Controller
     public function create()
     {
         //
-        return view('usuario.create');
+        return view('auth.register');
     }
 
     /**
@@ -40,8 +40,8 @@ class UserController extends Controller
         //Despues guardarlos en la base de datos
         User::insert($datosUsuario);
         //Muestra el resultado en formato json
-        //return response()->json($datosUsuario);
-        return redirect('usuario')->with('mensaje','Usuario agregado con exito');
+        return response()->json($datosUsuario);
+        //return redirect('usuario')->with('mensaje','Usuario agregado con exito');
     }
 
     /**
@@ -65,7 +65,7 @@ class UserController extends Controller
     {
         // Buscar informacion a partir del id
         $usuario=User::findOrFail($id);
-        return view('user.edit', compact('usuario'));
+        return view('user.index', compact('usuario'));
 
     }
 
@@ -84,7 +84,7 @@ class UserController extends Controller
 
         //Realiza la actualizacion y vuelve al formulario
         $usuario=User::findOrFail($id);
-        return view('user.edit', compact('usuario'));
+        return view('user.index', compact('usuario'));
     }
 
     /**
@@ -97,7 +97,7 @@ class UserController extends Controller
     {
         //
         User::destroy($id);
-        //return redirect('usuario');
-        return redirect('usuario')->with('mensaje','Usuario borrado con exito');
+        return redirect('user');
+        //return redirect('usuario')->with('mensaje','Usuario borrado con exito');
     }
 }

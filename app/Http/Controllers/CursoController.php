@@ -42,8 +42,9 @@ class CursoController extends Controller
         //$datosCurso = request()->all();
         $datosCurso = request()->except('_token');
         Curso::insert($datosCurso);
+        //return response()->json($datosCurso);
         //return response()->json($datosCurso)->with('mensaje','Curso agregado con exito');
-        return redirect('curso')->with('mensaje','Usuario agregado con exito');
+        return redirect('curso')->with('mensaje','Curso agregado con exito');
     }
 
 
@@ -111,5 +112,6 @@ class CursoController extends Controller
         //
         Curso::destroy($id);
         return redirect('curso')->with('mensaje','Curso borrado con exito');
+        //return redirect('curso');
     }
 }

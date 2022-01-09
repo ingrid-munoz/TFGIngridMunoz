@@ -6,7 +6,6 @@
 <title>Secretaria</title>
 
 <body>
-<!--Section: Contact v.2-->
 <section class="mb-4" style="background-color: #F5CBA7">
 
     <div class="container">
