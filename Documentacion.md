@@ -60,14 +60,14 @@
 <div id='id11' />  
 
 ## 1.1 Ámbito y entorno
-Este proyecto está orientado a la creación de un web para un centro educativo, en el cual habra una agenda virtual para alumnos, profesores y padres en la cual podre crear actividades o eventos fuera y dentro del horario escolar.
+Este proyecto está orientado a la creación de un web para un centro educativo, en el cual habra una agenda virtual para alumnos, profesores y padres en la cual podre crear actividades o eventos fuera y dentro del horario escolar. Además, de poder gestionar usuarios y formaciones que imparte el centro.
 
 <div id='id12' /> 
 
 ## 1.2 Análisis de la realidad
-Actualmente, en la mayoría de las webs de centros educativos no disponen de un apartado para actividades extraescolares, ya sea para alumnos, profesorado o padres.
+Actualmente, en la mayoría de las webs de centros educativos no disponen de un agenda virtual en la que el propio usuario pueda crear eventos y unirse a ellos.
 
-El objetivo es desarrollar una aplicación web para la gestión de eventos del profesorado, padres del AMPA y del alumnado en un centro educativo. Son muchas las actividades y eventos que se realizan en un centro educativo (cenas empresa, charlas, jornadas, lotería, evaluaciones, cursos piee...) por ello se requiere una aplicación que permita su gestión centralizada.
+El objetivo es desarrollar una aplicación web para la creación de eventos un centro educativo. Son muchas las actividades y eventos que se realizan en un centro educativo (cenas empresa, charlas, jornadas, lotería, evaluaciones, cursos piee...) por ello se requiere una aplicación que permita su gestión centralizada.
 
 <div id='id13' /> 
 
@@ -80,10 +80,10 @@ La aplicación permitirá dar de alta, baja, modificación de eventos dirigidos 
 Los usuarios destinatarios del proyecto serán todos los alumnos, profesores y padres del AMPA del centro educativo. Cada usuario tendrá su correspondiente nombre de usuario, contraseña y rol. El usuario deberá autenticarse para poder acceder a la aplicación.
 
 Los roles se definen a continuación:
-  - Rol de secretaría que será el encargado de dar de alta o eliminar a cualquiera de los 3 roles.
-  - Rol de alumno, el cual podrá acceder y crear una serie de actividades definidas por categorías. Este rol está limitado a una serie de actividades. 
-  - Rol de profesor, podrá acceder y crear una serie de actividades definidas por categorías específicas para este rol.
-  - Rol de padre AMPA, este rol es exclusivo para padres inscritos en el AMPA. También podrá crear una serie de actividades por categorías ya definidas.
+  - Rol de administrador que será el encargado de dar de alta o eliminar a cualquiera de los 3 roles.
+  - Rol de alumno, el cual podrá crear su propio evento.
+  - Rol de profesor, el cual podrá crear su propio evento.
+  - Rol de padre, el cual podrá crear su propio evento.
 
 <div id='id2' /> 
 
@@ -110,7 +110,7 @@ The access to the agenda will be only for students enrolled in the centre, teach
 <div id='id41' /> 
 
 ## 4.1 Requisitos de aplicación  
-Se trabajará con el entorno de PhpStorm, el framework de Laravel y el lenguaje de marcas HTML con Bootstrap. 
+Se trabajará con el entorno de PhpStorm, el framework de Laravel, los lenguajes de programación PHP y JavaScript, y el lenguaje de marcas HTML con Bootstrap. 
 
 <div id='id42' /> 
 
