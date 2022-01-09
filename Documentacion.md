@@ -4,10 +4,10 @@
 
 # ÍNDICE
 1. [Documento Descripcion del proyecto](#id1)   
-    1.1 Ámbito y entorno    
-    1.2 Análisis de la realidad    
-    1.3 Solución y justificación de la solución    
-    1.4 Destinatarios    
+    1.1 [Ámbito y entorno](#id11)      
+    1.2 [Análisis de la realidad](#id12)    
+    1.3 [Solución y justificación de la solución](#id13)    
+    1.4 [Destinatarios](#id14)    
      
 2. [Objetivo del proyecto](#id2)    
      
@@ -57,16 +57,24 @@
 
 # 1. Documento Descripcion del proyecto  
 
+<div id='id11' />  
+
 ## 1.1 Ámbito y entorno
 Este proyecto está orientado a la creación de un web para un centro educativo, en el cual habra una agenda virtual para alumnos, profesores y padres en la cual podre crear actividades o eventos fuera y dentro del horario escolar.
+
+<div id='id12' /> 
 
 ## 1.2 Análisis de la realidad
 Actualmente, en la mayoría de las webs de centros educativos no disponen de un apartado para actividades extraescolares, ya sea para alumnos, profesorado o padres.
 
 El objetivo es desarrollar una aplicación web para la gestión de eventos del profesorado, padres del AMPA y del alumnado en un centro educativo. Son muchas las actividades y eventos que se realizan en un centro educativo (cenas empresa, charlas, jornadas, lotería, evaluaciones, cursos piee...) por ello se requiere una aplicación que permita su gestión centralizada.
 
+<div id='id13' /> 
+
 ## 1.3 Solución y justificación de la solución 
 La aplicación permitirá dar de alta, baja, modificación de eventos dirigidos a 3 roles diferentes: alumnos, profesores y padres en un calendario. Permitirá añadir noticias sobre eventos. Permitirá inscribirse en el evento lo que conlleva el recibir avisos y notificaciones relacionados con ese evento. Como es obvio permitirá también el darse de baja del evento.
+
+<div id='id14' /> 
 
 ## 1.4 Destinatarios
 Los usuarios destinatarios del proyecto serán todos los alumnos, profesores y padres del AMPA del centro educativo. Cada usuario tendrá su correspondiente nombre de usuario, contraseña y rol. El usuario deberá autenticarse para poder acceder a la aplicación.
